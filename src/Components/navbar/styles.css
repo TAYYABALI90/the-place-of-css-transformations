@@ -1,0 +1,649 @@
+/* XXX-----XXX-----XXX Styles For logo && Navbar Toggle Button XXX-----XXX-----XXX */
+
+:is(.logo__nav-toggle) {
+    display: flex;
+    justify-content: space-between;
+}
+
+:is(.logo__nav-toggle) .logo {
+    --logo-margin: 0.5rem 3rem;
+
+    margin: var(--logo-margin);
+}
+
+:is(.logo__nav-toggle, .logo) h2 {
+    --logo-h2_white-color: #ffffff;
+    --logo-h2_letter-spacing: 0.5rem;
+    --logo-h2_font-weight_700: 700;
+    --logo-h2_text-shadow: -1px -1px 1px #efede3,
+        0px 1px 0 rgba(0, 0, 0, 0.480),
+        0px 2px 0 rgba(0, 0, 0, 0.480),
+        0px 3px 0 rgba(0, 0, 0, 0.480),
+        0px 4px 0 rgba(0, 0, 0, 0.480),
+        0px 5px 0 rgba(0, 0, 0, 0.480),
+        0px 6px 0 rgba(0, 0, 0, 0.480),
+        0px 7px 0 rgba(0, 0, 0, 0.480);
+
+    color: var(--logo-h2_white-color);
+    letter-spacing: var(--logo-h2_letter-spacing);
+    font-weight: var(--logo-h2_font-weight_700);
+    text-shadow: var(--logo-h2_text-shadow);
+    white-space: nowrap;
+
+    /* animation: animateLogo 6s linear infinite; */
+    animation-delay: 0.3s;
+}
+
+:is(.logo__nav-toggle, .logo) span {
+    --logo-span_font-size: 2.5rem;
+
+    font-size: var(--logo-span_font-size);
+}
+
+@keyframes animateLogo {
+    0% {
+        transform: scaleX(0);
+        opacity: 0;
+    }
+
+    50% {
+        transform: scaleY(100%);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scaleY(0);
+        opacity: 0;
+    }
+}
+
+:is(.logo__nav-toggle) .nav-toggle {
+    --nav-toggle_margin-top: 1rem;
+    --nav-toggle_margin-right: 2rem;
+
+    background: transparent;
+    border: 0;
+    outline: 0;
+    margin-top: var(--nav-toggle_margin-top);
+    margin-right: var(--nav-toggle_margin-right);
+}
+
+:is(.logo__nav-toggle, .nav-toggle) i {
+    --nav-toggle_icon-width: 4rem;
+    --nav-toggle_icon-aspect_ratio: 1;
+    --nav-toggle_icon-font_size: 2.5rem;
+    --nav-toggle_icon-color: #ffffff;
+    --nav-toggle_icon-background: linear-gradient(to bottom right, rgb(24, 247, 4), rgb(223, 247, 4));
+    --nav-toggle_icon-border_radius: 1rem;
+    --nav-toggle_icon-text_shadow: -1px -1px 1px #efede3,
+        0px 1px 0 rgba(0, 0, 0, 0.480),
+        0px 2px 0 rgba(0, 0, 0, 0.480),
+        0px 3px 0 rgba(0, 0, 0, 0.480),
+        0px 4px 0 rgba(0, 0, 0, 0.480),
+        0px 5px 0 rgba(0, 0, 0, 0.480),
+        0px 6px 0 rgba(0, 0, 0, 0.480),
+        0px 7px 0 rgba(0, 0, 0, 0.480);
+    --nav-toggle_icon-box_shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.300);
+    --nav-toggle_icon-transition: 1s;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--nav-toggle_icon-width);
+    aspect-ratio: var(--nav-toggle_icon-aspect_ratio);
+    font-size: var(--nav-toggle_icon-font_size);
+    color: var(--nav-toggle_icon-color);
+    background: var(--nav-toggle_icon-background);
+    border-radius: var(--nav-toggle_icon-border_radius);
+    text-shadow: var(--nav-toggle_icon-text_shadow);
+    box-shadow: var(--nav-toggle_icon-box_shadow);
+    transition: var(--nav-toggle_icon-transition) ease;
+    cursor: pointer;
+}
+
+:is(.logo__nav-toggle, .nav-toggle) i:hover {
+    --nav-toggle_icon-hover_transition: 1s;
+    --nav-toggle_icon-hover_background: #ffffff;
+    --nav-toggle_icon-hover_color: rgb(0, 0, 0);
+    --nav-toggle_icon-hover_box-shadow: none;
+
+    transition: background var(--nav-toggle_icon-hover_transition) ease,
+        color var(--nav-toggle_icon-hover_transition) ease,
+        box-shadow var(--nav-toggle_icon-hover_transition) ease;
+    background: var(--nav-toggle_icon-hover_background);
+    color: var(--nav-toggle_icon-hover_color);
+    box-shadow: var(--nav-toggle_icon-hover_box-shadow);
+}
+
+/* XXX-----XXX-----XXX Styles For logo && Navbar Toggle Button XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Nav And li Elements XXX-----XXX-----XXX */
+
+nav {
+    --nav-transition: 1s ease;
+
+    transition: display var(--nav-transition), opacity var(--nav-transition);
+
+    display: none;
+    opacity: 0;
+
+}
+
+nav.active {
+    --nav-active_transition: 1s ease;
+
+    transition: display var(--nav-active_transition), opacity var(--nav-active_transition);
+
+    display: block;
+    opacity: 1;
+    z-index: 1;
+
+    animation: openNavAnchors 1.5s linear;
+}
+
+@keyframes openNavAnchors {
+    0% {
+        transform: scaleY(0);
+        opacity: 0;
+    }
+
+    50% {
+        transform: scaleY(100%);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scaleX(100%);
+        opacity: 1;
+    }
+}
+
+:is(nav) li {
+    --li-margin: 0 3rem;
+    --li-gap: 2rem;
+    --li-transition: 1s;
+    --li-transform: translateY(5%);
+
+    position: absolute;
+    right: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: var(--li-gap);
+    margin: var(--li-margin);
+
+    transition: transform var(--li-transition) ease;
+    transform: var(--li-transform);
+
+}
+
+:is(nav, li) .message-for-short-screen-devices {
+    --text-color_for-short_screen-devices: #ffffff;
+    --text-font_size-for_short-screen_devices: 1rem;
+    --text-font_weight-weight_for-short_screen-devices: 400;
+    --text-shadow_for-short_screen-devices: 0px 0rem 0px #efede3,
+        0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.900),
+        0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.900);
+
+    display: none;
+    color: var(--text-color_for-short_screen-devices);
+    font-size: var(--text-font_size-for_short-screen_devices);
+    font-weight: var(--text-font_weight-weight_for-short_screen-devices);
+    text-transform: capitalize;
+    text-shadow: var(--text-shadow_for-short_screen-devices);
+}
+
+:is(nav, li) a {
+    --a-white_color: #ffffff;
+    --a-black_color: #000000;
+    --a-gap: 0.5rem;
+    --a-padding: 0.5rem 4rem 0.5rem 1.5rem;
+    --a-clip_path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    --a-transition: 2s;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: var(--a-gap);
+    padding: var(--a-padding);
+    text-decoration: none;
+    color: var(--a-white_color);
+
+    background: -moz-linear-gradient(-45deg, rgba(0, 0, 0, 0.7) 0%, rgb(89, 4, 247) 51%, rgba(0, 0, 0, 0.9) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(0, 0, 0, 0.9)), color-stop(51%, rgba(0, 0, 0, 0.7)), color-stop(100%, rgba(0, 0, 0, 0.7)));
+    background: -webkit-linear-gradient(-45deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.9) 51%, rgba(0, 0, 0, 0.6) 100%);
+    background: -o-linear-gradient(-45deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.6) 51%, rgb(89, 4, 247) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.6) 51%, rgba(0, 0, 0, 0.6) 100%);
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.7) 0%, rgb(89, 4, 247) 51%, rgba(0, 0, 0, 0.6) 100%);
+
+    clip-path: var(--a-clip_path);
+
+    transition: var(--a-transition) ease;
+
+}
+
+:is(nav, li) a::after {
+    --a-after_background: linear-gradient(to bottom right, rgb(24, 247, 4), rgb(223, 247, 4));
+    --a-after_width: 1.5rem;
+    --a-after_height: 1.5rem;
+    --a-after_border-radius: 50%;
+    --a-after_border-color: rgb(24, 247, 4);
+
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background: var(--a-after_background);
+    width: var(--a-after_width);
+    height: var(--a-after_height);
+    border-radius: var(--a-after_border-radius);
+}
+
+:is(nav, li, a) .nav-icon {
+    --white-color: #ffffff;
+    --icon-text_shadow: 0rem -.1rem 0rem #efede300,
+        0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.900),
+        0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.900);
+    --icon-box_shadow: 0.2rem 0.2rem 0.1rem rgb(247, 101, 4);
+    --icon-padding: 0.5rem;
+    --icon-margin: 0.5rem;
+    --icon-font_size: 1.5rem;
+    --icon-transition: 1s;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: var(--icon-padding);
+    font-size: var(--icon-font_size);
+    text-shadow: var(--icon-text_shadow);
+
+    transition: var(--icon-transition) ease;
+}
+
+:is(nav, li, a) .nav-icon::before {
+    content: '';
+    position: absolute;
+    inset: -2.5rem 0 0 0;
+    margin: auto;
+    width: 100%;
+    height: 0.1rem;
+    background: rgb(24, 247, 4);
+}
+
+:is(nav, li, a) .nav-icon::after {
+    content: '';
+    position: absolute;
+    inset: 2.5rem 0 0 0;
+    margin: auto;
+    width: 100%;
+    height: 0.1rem;
+    background: rgb(24, 247, 4);
+}
+
+:is(nav, li, a) .nav-text {
+    --nav-text_font-size: 1.2rem;
+    --nav-text_font-weight: 600;
+    --nav-text_letter-spacing: 0.1rem;
+    --nav-text_shadow: 0px -.1rem 0px #efede3,
+        0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.900),
+        0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.900);
+    --nav-text_transition: 1s;
+
+    position: relative;
+    font-size: var(--nav-text_font-size);
+    font-weight: var(--nav-text_font-weight);
+    text-transform: uppercase;
+    letter-spacing: var(--nav-text_letter-spacing);
+    text-shadow: var(--nav-text_shadow);
+    white-space: nowrap;
+
+    transition: var(--nav-text_transition) ease;
+}
+
+:is(nav, li, a) .nav-text::after {
+    --nav-text_before-width: 100%;
+    --nav-text_before-height: 0.2rem;
+    --nav-text_before-background: rgb(247, 4, 4);
+    --nav-before_opacity: 0;
+    --nav-before_animation-duration: 3s;
+    --nav-before_animation-delay: 0.3s;
+
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: var(--nav-text_before-width);
+    height: var(--nav-text_before-height);
+    background: var(--nav-text_before-background);
+    animation: underlineNavText var(--nav-before_animation-duration) linear infinite;
+    animation-delay: var(--nav-before_animation-delay);
+    opacity: var(--nav-before_opacity);
+}
+
+:is(nav, li, a) .nav-text:hover::after {
+    --nav-text_hover-before_opacity: 1;
+
+    opacity: var(--nav-text_hover-before_opacity);
+}
+
+@keyframes underlineNavText {
+    0% {
+        width: 0;
+    }
+
+    50% {
+        width: 100%;
+    }
+
+    100% {
+        width: 0;
+    }
+}
+
+/* XXX-----XXX-----XXX Styles For Nav And li Elements XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 700px || 43.75rem XXX-----XXX-----XXX */
+
+@media screen and (width <=43.75rem) {
+
+    :is(.logo__nav-toggle) .logo {
+        --logo-margin: 0 2rem;
+    }
+
+    :is(.logo__nav-toggle, .logo) h2 {
+        --logo-h2_letter-spacing: 0.40rem;
+        --logo-h2_text-shadow: 0 0 0 #efede3,
+            0 0.1rem 0.1rem rgba(0, 0, 0, 0.900),
+            0 0.1rem 0.1rem rgba(0, 0, 0, 0.900);
+    }
+
+    :is(.logo__nav-toggle, .nav-toggle) i {
+        --nav-toggle_icon-width: 3rem;
+        --nav-toggle_icon-font_size: 1.75rem;
+    }
+
+    :is(nav) li {
+        --li-margin: 0 2rem;
+    }
+
+    :is(nav, li) a {
+        --a-padding: 0.5rem 3rem 0.5rem 1.5rem;
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 700px || 43.75rem XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 500px || 31.25rem XXX-----XXX-----XXX */
+
+@media screen and (width <=31.25rem) {
+
+    :is(nav, li) a {
+        --a-padding: 0.5rem 2.75rem 0.5rem 1.25rem;
+    }
+
+    :is(nav, li, a) .nav-icon {
+        --icon-font_size: 1.25rem;
+    }
+
+    :is(nav, li, a) .nav-text {
+        --nav-text_font-size: 1rem;
+        --nav-text_shadow: 0px 0rem 0px #efede3,
+            0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.900),
+            0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.900);
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 500px || 31.25rem XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 400px || 25rem XXX-----XXX-----XXX */
+
+@media screen and (width <=25rem) {
+
+    :is(.logo__nav-toggle, .logo) h2 {
+        --logo-h2_font-size: 1.5rem;
+
+        font-size: var(--logo-h2_font-size);
+    }
+
+    :is(.logo__nav-toggle) .nav-toggle {
+        --nav-toggle_margin-top: 0.75rem;
+        --nav-toggle_margin-right: 2rem;
+    }
+
+    :is(nav) li {
+        --li-background: linear-gradient(135deg, rgba(0, 0, 0, 0.7) 0%, rgb(89, 4, 247) 51%, rgba(0, 0, 0, 0.6) 100%);
+        --li-padding: 1.25rem;
+        --li-margin: 0 1.5rem;
+        --li-gap: 0.5rem;
+        --li-border_radius: 1rem;
+        --li-transform: translateY(10%);
+
+        padding: var(--li-padding);
+        border-radius: var(--li-border_radius);
+        background: var(--li-background);
+
+    }
+
+    :is(nav, li) a {
+        --a-padding: 0;
+        --a-clip_path: none;
+        --a-background: none;
+
+        background: var(--a-background);
+    }
+
+    :is(nav, li) a::after {
+        display: none;
+    }
+
+    :is(nav, li, a) .nav-icon::before {
+        display: none;
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 400px || 25rem XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 320px || 20rem XXX-----XXX-----XXX */
+
+@media screen and (width <=20rem) {
+
+    :is(.logo__nav-toggle) .logo {
+        --logo-margin: 0 1.5rem;
+    }
+
+    :is(.logo__nav-toggle, .logo) h2 {
+        --logo-h2_font-size: 1.35rem;
+        --logo-h2_letter-spacing: 0.30rem;
+    }
+
+    :is(.logo__nav-toggle) .nav-toggle {
+        --nav-toggle_margin-top: 0.25rem;
+        --nav-toggle_margin-right: 3rem;
+    }
+
+    :is(.logo__nav-toggle, .nav-toggle) i {
+        --nav-toggle_icon-width: 0;
+        --nav-toggle_icon-aspect_ratio: 0;
+        --nav-toggle_icon-font_size: 2rem;
+        --nav-toggle_icon-background: transparent;
+        --nav-toggle_icon-border_radius: 0;
+        --nav-toggle_icon-box_shadow: none;
+    }
+
+    :is(.logo__nav-toggle, .nav-toggle) i:hover {
+        --nav-toggle_icon-hover_transition: none;
+        --nav-toggle_icon-hover_background: transparent;
+        --nav-toggle_icon-hover_color: #ffffff;
+        --nav-toggle_icon-hover_box-shadow: none;
+    }
+
+    :is(nav) li {
+        --li-gap: 1rem;
+        --li-transform: translateY(0);
+        --li-margin: 1.5rem;
+
+        left: 0;
+    }
+
+    :is(nav, li) a {
+        justify-content: center;
+    }
+
+    :is(nav, li, a) .nav-icon {
+        display: none;
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 320px || 20rem XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 275px || 17.188rem XXX-----XXX-----XXX */
+
+@media screen and (width <=17.188rem) {
+
+    :is(.logo__nav-toggle, .logo) h2 {
+        --logo-h2_font-size: 1.25rem;
+    }
+
+    :is(.logo__nav-toggle) .nav-toggle {
+        --nav-toggle_margin-right: 2rem;
+    }
+
+    :is(.logo__nav-toggle, .nav-toggle) i {
+        --nav-toggle_icon-font_size: 1.75rem;
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 275px || 17.188rem XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 230px || 14.375rem XXX-----XXX-----XXX */
+
+@media screen and (width <=14.375rem) {
+
+    :is(.logo__nav-toggle, .logo) h2 {
+        --logo-h2_font-size: 1.15rem;
+        --logo-h2_letter-spacing: 0.20rem;
+    }
+
+    :is(.logo__nav-toggle) .nav-toggle {
+        --nav-toggle_margin-top: 0.5rem;
+    }
+
+    :is(.logo__nav-toggle, .nav-toggle) i {
+        --nav-toggle_icon-font_size: 1.50rem;
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 230px || 14.375rem XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 200px || 12.5rem XXX-----XXX-----XXX */
+
+@media screen and (width <=12.5rem) {
+
+    :is(.logo__nav-toggle) .logo {
+        --logo-margin: 0 1rem;
+    }
+
+    :is(.logo__nav-toggle, .logo) h2 {
+        --logo-h2_font-size: 1rem;
+        --logo-h2_letter-spacing: 0.15rem;
+    }
+
+    :is(.logo__nav-toggle) .nav-toggle {
+        --nav-toggle_margin-right: 1.5rem;
+    }
+
+    :is(nav, li, a) .nav-text {
+        --nav-text_font-size: 0.9rem;
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 200px || 12.5rem XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 180px || 11.25rem XXX-----XXX-----XXX */
+
+@media screen and (width <=11.25rem) {
+
+    :is(.logo__nav-toggle, .logo) h2 {
+        --logo-h2_font-size: 0.9rem;
+        --logo-h2_letter-spacing: 0.10rem;
+    }
+
+    :is(nav, li, a) .nav-text {
+        --nav-text_font-size: 0.8rem;
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 180px || 11.25rem XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 160px || 10rem XXX-----XXX-----XXX */
+
+@media screen and (width <=10rem) {
+
+    :is(.logo__nav-toggle, .logo) h2 {
+        --logo-h2_font-size: 0.8rem;
+        --logo-h2_letter-spacing: 0.10rem;
+    }
+
+    :is(nav, li, a) .nav-text {
+        --nav-text_font-size: 0.7rem;
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 160px || 10rem XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 150px || 9.375rem XXX-----XXX-----XXX */
+
+@media screen and (width <=9.375rem) {
+
+    :is(.logo__nav-toggle) {
+        flex-direction: column;
+    }
+
+    :is(.logo__nav-toggle) .logo {
+        --logo-margin: 0 auto;
+    }
+
+    :is(.logo__nav-toggle, .logo) h2 {
+        --logo-h2_font-size: 1rem;
+        --logo-h2_letter-spacing: 0.10rem;
+    }
+
+    :is(.logo__nav-toggle) .nav-toggle {
+        margin: 0 auto;
+    }
+
+    :is(.logo__nav-toggle, .nav-toggle) i {
+        --nav-toggle_icon-font_size: 1.5rem;
+    }
+
+    :is(nav) li {
+        --li-gap: 0;
+        --li-margin: 0.75rem;
+        --li-border_radius: 0;
+    }
+
+    :is(nav, li) .message-for-short-screen-devices {
+        display: block;
+    }
+
+    :is(nav, li, a) .nav-text {
+        display: none;
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 150px || 9.375rem XXX-----XXX-----XXX */

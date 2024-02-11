@@ -1,0 +1,4172 @@
+/* XXX-----XXX-----XXX Styles For .animated-balls-container div XXX-----XXX-----XXX */
+
+:is(.home-content) .animated-balls-container {
+
+    --animated-balls-gap: 1rem;
+    --animated-balls-transitions: all 1.5s ease-in-out;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--animated-balls-gap);
+    z-index: -1;
+
+    transition: var(--animated-balls-transitions);
+
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-1,
+:is(.home-content, .animated-balls-container) .animated-ball-2,
+:is(.home-content, .animated-balls-container) .animated-ball-3,
+:is(.home-content, .animated-balls-container) .animated-ball-4,
+:is(.home-content, .animated-balls-container) .animated-ball-5,
+:is(.home-content, .animated-balls-container) .animated-ball-6,
+:is(.home-content, .animated-balls-container) .animated-ball-7,
+:is(.home-content, .animated-balls-container) .animated-ball-8,
+:is(.home-content, .animated-balls-container) .animated-ball-9,
+:is(.home-content, .animated-balls-container) .animated-ball-10,
+:is(.home-content, .animated-balls-container) .animated-ball-11,
+:is(.home-content, .animated-balls-container) .animated-ball-12,
+:is(.home-content, .animated-balls-container) .animated-ball-13,
+:is(.home-content, .animated-balls-container) .animated-ball-14,
+:is(.home-content, .animated-balls-container) .animated-ball-15,
+:is(.home-content, .animated-balls-container) .animated-ball-16,
+:is(.home-content, .animated-balls-container) .animated-ball-17 {
+
+    /* --gradient-ball-1-background: linear-gradient(to bottom right, rgb(247, 4, 174), rgb(138, 4, 247));
+    --gradient-ball-2-background: linear-gradient(to bottom right, rgb(231, 247, 4), rgb(247, 53, 4));
+    --gradient-ball-3-background: linear-gradient(to bottom right, rgb(247, 4, 77), rgb(97, 4, 247));
+    --gradient-ball-4-background: linear-gradient(to bottom right, rgb(247, 223, 4), rgb(247, 4, 4));
+    --gradient-ball-5-background: linear-gradient(to bottom right, rgb(4, 130, 247), rgb(77, 4, 247));
+    --gradient-ball-6-background: linear-gradient(to bottom right, rgb(24, 247, 4), rgb(223, 247, 4));
+    --gradient-ball-7-background: linear-gradient(to bottom right, rgb(247, 4, 4), rgb(247, 101, 4));
+    --gradient-ball-8-background: linear-gradient(to bottom right, rgb(247, 4, 4), rgb(142, 247, 4));
+    --gradient-ball-9-background: linear-gradient(to bottom right, rgb(247, 4, 174), rgb(138, 4, 247));
+    --gradient-ball-10-background: linear-gradient(to bottom right, rgb(231, 247, 4), rgb(247, 53, 4));
+    --gradient-ball-11-background: linear-gradient(to bottom right, rgb(247, 4, 77), rgb(97, 4, 247));
+    --gradient-ball-12-background: linear-gradient(to bottom right, rgb(247, 223, 4), rgb(247, 4, 4));
+    --gradient-ball-13-background: linear-gradient(to bottom right, rgb(4, 130, 247), rgb(77, 4, 247));
+    --gradient-ball-14-background: linear-gradient(to bottom right, rgb(24, 247, 4), rgb(223, 247, 4));
+    --gradient-ball-15-background: linear-gradient(to bottom right, rgb(247, 4, 4), rgb(247, 101, 4));
+    --gradient-ball-16-background: linear-gradient(to bottom right, rgb(247, 4, 4), rgb(142, 247, 4));
+    --gradient-ball-17-background: linear-gradient(to bottom right, rgb(247, 4, 174), rgb(138, 4, 247)); */
+
+    --gradient-ball-width: 4rem;
+    --gradient-ball-color: #ffffff;
+    --gradient-ball-text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.726);
+    --gradient-ball-font-size: 1.5rem;
+    --gradient-ball-border-radius: 0.5rem;
+    --gradient-ball-margin: 3rem;
+    --gradient-ball-transition: all 1.5s ease-in-out;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: var(--gradient-ball-margin);
+
+    width: var(--gradient-ball-width);
+    aspect-ratio: 1;
+    font-size: var(--gradient-ball-font-size);
+    font-weight: 800;
+    color: var(--gradient-ball-color);
+    text-shadow: var(--gradient-ball-text-shadow);
+    border-radius: var(--gradient-ball-border-radius);
+
+    transition: var(--gradient-ball_transition);
+    /* animation: none; */
+    /* z-index: -1; */
+
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-1 {
+    background: var(--gradient-ball-1-background);
+    /* animation-delay: 0.1s; */
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-2 {
+    background: var(--gradient-ball-2-background);
+    /* animation-delay: 0.2s; */
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-3 {
+    background: var(--gradient-ball-3-background);
+    /* animation-delay: 0.3s; */
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-4 {
+    background: var(--gradient-ball-4-background);
+    /* animation-delay: 0.4s; */
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-5 {
+    background: var(--gradient-ball-5-background);
+    /* animation-delay: 0.5s; */
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-6 {
+    background: var(--gradient-ball-6-background);
+    /* animation-delay: 0.6s; */
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-7 {
+    background: var(--gradient-ball-7-background);
+    /* animation-delay: 0.7s; */
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-8 {
+    background: var(--gradient-ball-8-background);
+    /* animation-delay: 0.10s; */
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-9 {
+    background: var(--gradient-ball-9-background);
+    /* animation-delay: 0.9s; */
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-10 {
+    background: var(--gradient-ball-10-background);
+    /* animation-delay: 1s; */
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-11 {
+    background: var(--gradient-ball-11-background);
+    /* animation-delay: 1.1s; */
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-12 {
+    background: var(--gradient-ball-12-background);
+    /* animation-delay: 1.2s; */
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-13 {
+    background: var(--gradient-ball-13-background);
+    /* animation-delay: 1.3s; */
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-14 {
+    background: var(--gradient-ball-14-background);
+    /* animation-delay: 1.4s; */
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-15 {
+    background: var(--gradient-ball-15-background);
+    /* animation-delay: 1.5s; */
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-16 {
+    background: var(--gradient-ball-16-background);
+    /* animation-delay: 1.6s; */
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-17 {
+    background: var(--gradient-ball-17-background);
+    /* animation-delay: 1.7s; */
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-1::before,
+:is(.home-content, .animated-balls-container) .animated-ball-2::before,
+:is(.home-content, .animated-balls-container) .animated-ball-3::before,
+:is(.home-content, .animated-balls-container) .animated-ball-4::before,
+:is(.home-content, .animated-balls-container) .animated-ball-5::before,
+:is(.home-content, .animated-balls-container) .animated-ball-6::before,
+:is(.home-content, .animated-balls-container) .animated-ball-7::before,
+:is(.home-content, .animated-balls-container) .animated-ball-8::before,
+:is(.home-content, .animated-balls-container) .animated-ball-9::before,
+:is(.home-content, .animated-balls-container) .animated-ball-10::before,
+:is(.home-content, .animated-balls-container) .animated-ball-11::before,
+:is(.home-content, .animated-balls-container) .animated-ball-12::before,
+:is(.home-content, .animated-balls-container) .animated-ball-13::before,
+:is(.home-content, .animated-balls-container) .animated-ball-14::before,
+:is(.home-content, .animated-balls-container) .animated-ball-15::before,
+:is(.home-content, .animated-balls-container) .animated-ball-16::before,
+:is(.home-content, .animated-balls-container) .animated-ball-17::before {
+
+    --gradient-balls-before-width: 4rem;
+    --gradient-balls-before-background: #000000;
+    --gradient-balls-before-box-shadow: .2rem .1rem 1.5rem #000000;
+    --gradient-balls-before-border-radius: 0.5rem;
+    --gradient-balls-before-transition: all 1.5s ease-in-out;
+    --gradient-balls-before-transition-delay: 0.3s;
+
+    content: '';
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: var(--gradient-balls-before-width);
+    aspect-ratio: 1;
+    background: var(--gradient-balls-before-background);
+    box-shadow: var(--gradient-balls-before-box-shadow);
+    border-radius: var(--gradient-balls-before-border-radius);
+    transition: var(--gradient-balls-before-transition);
+    transition-delay: var(--gradient-balls-before-transition-delay);
+    /* z-index: -1; */
+
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-1::before {
+    animation: animatePassionBefore 25s linear infinite,
+        animatePassionBeforeLetter1 12s ease-in-out infinite;
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-2::before {
+    animation: animatePassionBefore 25s linear infinite,
+        animatePassionBeforeLetter2 12s ease-in-out infinite;
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-3::before {
+    animation: animatePassionBefore 25s linear infinite,
+        animatePassionBeforeLetter3 12s ease-in-out infinite;
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-4::before {
+    animation: animatePassionBefore 25s linear infinite,
+        animatePassionBeforeLetter4 12s ease-in-out infinite;
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-5::before {
+    animation: animatePassionBefore 25s linear infinite,
+        animatePassionBeforeLetter5 12s ease-in-out infinite;
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-6::before {
+    animation: animatePassionBefore 25s linear infinite,
+        animatePassionBeforeLetter6 12s ease-in-out infinite;
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-7::before {
+    animation: animatePassionBefore 25s linear infinite,
+        animatePassionBeforeLetter7 12s ease-in-out infinite;
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-8::before {
+    animation: animatePassionBefore 25s linear infinite,
+        animatePassionBeforeLetter8 12s ease-in-out infinite;
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-9::before {
+    animation: animatePassionBefore 25s linear infinite,
+        animatePassionBeforeLetter9 12s ease-in-out infinite;
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-10::before {
+    animation: animatePassionBefore 25s linear infinite,
+        animatePassionBeforeLetter10 25s ease-in-out infinite;
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-11::before {
+    animation: animatePassionBefore 25s linear infinite,
+        animatePassionBeforeLetter11 25s ease-in-out infinite;
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-12::before {
+    animation: animatePassionBefore 25s linear infinite,
+        animatePassionBeforeLetter12 25s ease-in-out infinite;
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-13::before {
+    animation: animatePassionBefore 25s linear infinite,
+        animatePassionBeforeLetter13 25s ease-in-out infinite;
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-14::before {
+    animation: animatePassionBefore 25s linear infinite,
+        animatePassionBeforeLetter14 25s ease-in-out infinite;
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-15::before {
+    animation: animatePassionBefore 25s linear infinite,
+        animatePassionBeforeLetter15 25s ease-in-out infinite;
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-16::before {
+    animation: animatePassionBefore 25s linear infinite,
+        animatePassionBeforeLetter16 25s ease-in-out infinite;
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-17::before {
+    animation: animatePassionBefore 25s linear infinite,
+        animatePassionBeforeLetter17 25s ease-in-out infinite;
+}
+
+@keyframes animatePassionBeforeLetter1 {
+
+    0%,
+    100% {
+        content: 'W';
+    }
+
+}
+
+@keyframes animatePassionBeforeLetter2 {
+
+    0%,
+    100% {
+        content: 'E';
+    }
+
+}
+
+@keyframes animatePassionBeforeLetter3 {
+
+    0%,
+    100% {
+        content: 'L';
+    }
+
+}
+
+@keyframes animatePassionBeforeLetter4 {
+
+    0%,
+    100% {
+        content: 'C';
+    }
+
+}
+
+@keyframes animatePassionBeforeLetter5 {
+
+    0%,
+    100% {
+        content: 'O';
+    }
+
+}
+
+@keyframes animatePassionBeforeLetter6 {
+
+    0%,
+    100% {
+        content: 'M';
+    }
+
+}
+
+@keyframes animatePassionBeforeLetter7 {
+
+    0%,
+    100% {
+        content: 'E';
+    }
+
+}
+
+@keyframes animatePassionBeforeLetter8 {
+
+    0%,
+    100% {
+        content: 'T';
+    }
+
+}
+
+@keyframes animatePassionBeforeLetter9 {
+
+    0%,
+    100% {
+        content: 'O';
+    }
+
+}
+
+@keyframes animatePassionBeforeLetter10 {
+
+    0%,
+    100% {
+        content: 'M';
+    }
+
+}
+
+@keyframes animatePassionBeforeLetter11 {
+
+    0%,
+    100% {
+        content: 'Y';
+    }
+
+}
+
+@keyframes animatePassionBeforeLetter12 {
+
+    0%,
+    100% {
+        content: 'W';
+    }
+
+}
+
+@keyframes animatePassionBeforeLetter13 {
+
+    0%,
+    100% {
+        content: 'O';
+    }
+
+}
+
+@keyframes animatePassionBeforeLetter14 {
+
+    0%,
+    100% {
+        content: 'R';
+    }
+
+}
+
+@keyframes animatePassionBeforeLetter15 {
+
+    0%,
+    100% {
+        content: 'L';
+    }
+
+}
+
+@keyframes animatePassionBeforeLetter16 {
+
+    0%,
+    100% {
+        content: 'D';
+    }
+
+}
+
+@keyframes animatePassionBeforeLetter17 {
+
+    0%,
+    100% {
+        content: '!';
+    }
+
+}
+
+@keyframes animatePassionBefore {
+
+    0%,
+    100% {
+        box-shadow: 0rem 0rem 1rem #6e48a9,
+            0rem 0rem 1rem #6e48a9,
+            0rem 0rem 1rem #6e48a9,
+            0rem 0rem 1rem #6e48a9,
+            0rem 0rem 1rem #6e48a9,
+            0rem 0rem 1rem #6e48a9,
+            0rem 0rem 1rem #6e48a9,
+            0rem 0rem 1rem #6e48a9,
+            0rem 0rem 1rem #6e48a9,
+            0rem 0rem 1rem #6e48a9;
+    }
+
+    25% {
+        box-shadow: 0rem 0rem 1rem #ff4e50,
+            0rem 0rem 1rem #ff4e50,
+            0rem 0rem 1rem #ff4e50,
+            0rem 0rem 1rem #ff4e50,
+            0rem 0rem 1rem #ff4e50,
+            0rem 0rem 1rem #ff4e50,
+            0rem 0rem 1rem #ff4e50,
+            0rem 0rem 1rem #ff4e50,
+            0rem 0rem 1rem #ff4e50,
+            0rem 0rem 1rem #ff4e50;
+    }
+
+    50% {
+        transform: perspective(100em) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
+        z-index: -1;
+        box-shadow: 0rem 0rem 1rem #11ffbd,
+            0rem 0rem 1rem #11ffbd,
+            0rem 0rem 1rem #11ffbd,
+            0rem 0rem 1rem #11ffbd,
+            0rem 0rem 1rem #11ffbd,
+            0rem 0rem 1rem #11ffbd,
+            0rem 0rem 1rem #11ffbd,
+            0rem 0rem 1rem #11ffbd,
+            0rem 0rem 1rem #11ffbd,
+            0rem 0rem 1rem #11ffbd;
+    }
+
+    75% {
+        box-shadow: 0rem 0rem 1rem #ff9472,
+            0rem 0rem 1rem #ff9472,
+            0rem 0rem 1rem #ff9472,
+            0rem 0rem 1rem #ff9472,
+            0rem 0rem 1rem #ff9472,
+            0rem 0rem 1rem #ff9472,
+            0rem 0rem 1rem #ff9472,
+            0rem 0rem 1rem #ff9472,
+            0rem 0rem 1rem #ff9472,
+            0rem 0rem 1rem #ff9472;
+    }
+
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-1::after,
+:is(.home-content, .animated-balls-container) .animated-ball-2::after,
+:is(.home-content, .animated-balls-container) .animated-ball-3::after,
+:is(.home-content, .animated-balls-container) .animated-ball-4::after,
+:is(.home-content, .animated-balls-container) .animated-ball-5::after,
+:is(.home-content, .animated-balls-container) .animated-ball-6::after,
+:is(.home-content, .animated-balls-container) .animated-ball-7::after,
+:is(.home-content, .animated-balls-container) .animated-ball-8::after,
+:is(.home-content, .animated-balls-container) .animated-ball-9::after,
+:is(.home-content, .animated-balls-container) .animated-ball-10::after,
+:is(.home-content, .animated-balls-container) .animated-ball-11::after,
+:is(.home-content, .animated-balls-container) .animated-ball-12::after,
+:is(.home-content, .animated-balls-container) .animated-ball-13::after,
+:is(.home-content, .animated-balls-container) .animated-ball-14::after,
+:is(.home-content, .animated-balls-container) .animated-ball-15::after,
+:is(.home-content, .animated-balls-container) .animated-ball-16::after,
+:is(.home-content, .animated-balls-container) .animated-ball-17::after {
+
+    --gradient-balls-after-font-size: 1.4rem;
+    --gradient-balls-after-width: 4rem;
+    --gradient-balls-after-background: rgb(15.5, 15.5, 15.5);
+    --gradient-balls-after-transition: all 1.5s ease-in-out;
+    --gradient-balls-after-transition-delay: 0.3s;
+    --gradient-balls-after-z-index: 1;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(5rem);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: var(--gradient-balls-after-font-size);
+    font-weight: 900;
+
+    width: var(--gradient-balls-after-width);
+    aspect-ratio: 1;
+    background: var(--gradient-balls-after-background);
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    border-radius: 50%;
+
+    transition: var(--gradient-balls-after-transition);
+    transition-delay: var(--gradient-balls-after-transition-delay);
+    z-index: 1;
+
+    animation: animatePassionAfter 10s linear infinite;
+
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-1::after {
+    content: '</>';
+    color: rgb(255, 0, 0);
+    border: 2px solid rgb(255, 0, 0);
+    box-shadow: .2rem .1rem 1rem rgb(255, 0, 0),
+        .2rem .1rem 1rem rgb(255, 0, 0),
+        .2rem .1rem 1rem rgb(255, 0, 0),
+        .2rem .1rem 1rem rgb(255, 0, 0),
+        .2rem .1rem 1rem rgb(255, 0, 0),
+        .2rem .1rem 1rem rgb(255, 0, 0);
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-2::after {
+    content: '{}';
+    color: rgb(199, 75, 4);
+    border: 2px solid rgb(199, 75, 4);
+    box-shadow: .2rem .1rem 1rem rgb(199, 75, 4),
+        .2rem .1rem 1rem rgb(199, 75, 4),
+        .2rem .1rem 1rem rgb(199, 75, 4),
+        .2rem .1rem 1rem rgb(199, 75, 4),
+        .2rem .1rem 1rem rgb(199, 75, 4),
+        .2rem .1rem 1rem rgb(199, 75, 4);
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-3::after {
+    content: '()';
+    color: rgb(247, 203, 4);
+    border: 2px solid rgb(247, 203, 4);
+    box-shadow: .2rem .1rem 1rem rgb(247, 203, 4),
+        .2rem .1rem 1rem rgb(247, 203, 4),
+        .2rem .1rem 1rem rgb(247, 203, 4),
+        .2rem .1rem 1rem rgb(247, 203, 4),
+        .2rem .1rem 1rem rgb(247, 203, 4),
+        .2rem .1rem 1rem rgb(247, 203, 4);
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-4::after {
+    content: '&&';
+    color: rgb(182, 247, 4);
+    border: 2px solid rgb(182, 247, 4);
+    box-shadow: .2rem .1rem 1rem rgb(182, 247, 4),
+        .2rem .1rem 1rem rgb(182, 247, 4),
+        .2rem .1rem 1rem rgb(182, 247, 4),
+        .2rem .1rem 1rem rgb(182, 247, 4),
+        .2rem .1rem 1rem rgb(182, 247, 4),
+        .2rem .1rem 1rem rgb(182, 247, 4);
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-5::after {
+    content: '||';
+    color: rgb(115, 255, 0);
+    border: 2px solid rgb(115, 255, 0);
+    box-shadow: .2rem .1rem 1rem rgb(115, 255, 0),
+        .2rem .1rem 1rem rgb(115, 255, 0),
+        .2rem .1rem 1rem rgb(115, 255, 0),
+        .2rem .1rem 1rem rgb(115, 255, 0),
+        .2rem .1rem 1rem rgb(115, 255, 0),
+        .2rem .1rem 1rem rgb(115, 255, 0);
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-6::after {
+    content: ';';
+    color: rgb(0, 255, 0);
+    border: 2px solid rgb(0, 255, 0);
+    box-shadow: .2rem .1rem 1rem rgb(0, 255, 0),
+        .2rem .1rem 1rem rgb(0, 255, 0),
+        .2rem .1rem 1rem rgb(0, 255, 0),
+        .2rem .1rem 1rem rgb(0, 255, 0),
+        .2rem .1rem 1rem rgb(0, 255, 0),
+        .2rem .1rem 1rem rgb(0, 255, 0);
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-7::after {
+    content: '""';
+    color: rgb(0, 255, 106);
+    border: 2px solid rgb(0, 255, 106);
+    box-shadow: .2rem .1rem 1rem rgb(0, 255, 106),
+        .2rem .1rem 1rem rgb(0, 255, 106),
+        .2rem .1rem 1rem rgb(0, 255, 106),
+        .2rem .1rem 1rem rgb(0, 255, 106),
+        .2rem .1rem 1rem rgb(0, 255, 106),
+        .2rem .1rem 1rem rgb(0, 255, 106);
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-8::after {
+    content: '?';
+    color: rgb(0, 247, 255);
+    border: 2px solid rgb(0, 247, 255);
+    box-shadow: .2rem .1rem 1rem rgb(0, 247, 255),
+        .2rem .1rem 1rem rgb(0, 247, 255),
+        .2rem .1rem 1rem rgb(0, 247, 255),
+        .2rem .1rem 1rem rgb(0, 247, 255),
+        .2rem .1rem 1rem rgb(0, 247, 255),
+        .2rem .1rem 1rem rgb(0, 247, 255);
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-9::after {
+    content: ':';
+    color: rgb(0, 132, 255);
+    border: 2px solid rgb(0, 132, 255);
+    box-shadow: .2rem .1rem 1rem rgb(0, 132, 255),
+        .2rem .1rem 1rem rgb(0, 132, 255),
+        .2rem .1rem 1rem rgb(0, 132, 255),
+        .2rem .1rem 1rem rgb(0, 132, 255),
+        .2rem .1rem 1rem rgb(0, 132, 255),
+        .2rem .1rem 1rem rgb(0, 132, 255);
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-10::after {
+    content: '+';
+    color: rgb(0, 60, 255);
+    border: 2px solid rgb(0, 60, 255);
+    box-shadow: .2rem .1rem 1rem rgb(0, 60, 255),
+        .2rem .1rem 1rem rgb(0, 60, 255),
+        .2rem .1rem 1rem rgb(0, 60, 255),
+        .2rem .1rem 1rem rgb(0, 60, 255),
+        .2rem .1rem 1rem rgb(0, 60, 255),
+        .2rem .1rem 1rem rgb(0, 60, 255);
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-11::after {
+    content: '-';
+    color: rgb(38, 0, 255);
+    border: 2px solid rgb(38, 0, 255);
+    box-shadow: .2rem .1rem 1rem rgb(38, 0, 255),
+        .2rem .1rem 1rem rgb(38, 0, 255),
+        .2rem .1rem 1rem rgb(38, 0, 255),
+        .2rem .1rem 1rem rgb(38, 0, 255),
+        .2rem .1rem 1rem rgb(38, 0, 255),
+        .2rem .1rem 1rem rgb(38, 0, 255);
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-12::after {
+    content: '%';
+    color: rgb(98, 0, 255);
+    border: 2px solid rgb(98, 0, 255);
+    box-shadow: .2rem .1rem 1rem rgb(98, 0, 255),
+        .2rem .1rem 1rem rgb(98, 0, 255),
+        .2rem .1rem 1rem rgb(98, 0, 255),
+        .2rem .1rem 1rem rgb(98, 0, 255),
+        .2rem .1rem 1rem rgb(98, 0, 255),
+        .2rem .1rem 1rem rgb(98, 0, 255);
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-13::after {
+    content: '/';
+    color: rgb(174, 0, 255);
+    border: 2px solid rgb(174, 0, 255);
+    box-shadow: .2rem .1rem 1rem rgb(174, 0, 255),
+        .2rem .1rem 1rem rgb(174, 0, 255),
+        .2rem .1rem 1rem rgb(174, 0, 255),
+        .2rem .1rem 1rem rgb(174, 0, 255),
+        .2rem .1rem 1rem rgb(174, 0, 255),
+        .2rem .1rem 1rem rgb(174, 0, 255);
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-14::after {
+    content: '=';
+    color: rgb(255, 0, 179);
+    border: 2px solid rgb(255, 0, 179);
+    box-shadow: .2rem .1rem 1rem rgb(255, 0, 179),
+        .2rem .1rem 1rem rgb(255, 0, 179),
+        .2rem .1rem 1rem rgb(255, 0, 179),
+        .2rem .1rem 1rem rgb(255, 0, 179),
+        .2rem .1rem 1rem rgb(255, 0, 179),
+        .2rem .1rem 1rem rgb(255, 0, 179);
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-15::after {
+    content: '!';
+    color: rgb(255, 0, 64);
+    border: 2px solid rgb(255, 0, 64);
+    box-shadow: .2rem .1rem 1rem rgb(255, 0, 64),
+        .2rem .1rem 1rem rgb(255, 0, 64),
+        .2rem .1rem 1rem rgb(255, 0, 64),
+        .2rem .1rem 1rem rgb(255, 0, 64),
+        .2rem .1rem 1rem rgb(255, 0, 64),
+        .2rem .1rem 1rem rgb(255, 0, 64);
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-16::after {
+    content: '...';
+    color: rgb(255, 38, 0);
+    border: 2px solid rgb(255, 38, 0);
+    box-shadow: .2rem .1rem 1rem rgb(255, 38, 0),
+        .2rem .1rem 1rem rgb(255, 38, 0),
+        .2rem .1rem 1rem rgb(255, 38, 0),
+        .2rem .1rem 1rem rgb(255, 38, 0),
+        .2rem .1rem 1rem rgb(255, 38, 0),
+        .2rem .1rem 1rem rgb(255, 38, 0);
+}
+
+:is(.home-content, .animated-balls-container) .animated-ball-17::after {
+    content: '=>';
+    color: #4b0082;
+    border: 2px solid #4b0082;
+    box-shadow: .2rem .1rem 1rem #8f03f3,
+        .2rem .1rem 1rem #8f03f3,
+        .2rem .1rem 1rem #8f03f3,
+        .2rem .1rem 1rem #8f03f3,
+        .2rem .1rem 1rem #8f03f3,
+        .2rem .1rem 1rem #8f03f3;
+}
+
+.animation-stop {
+    animation: none !important;
+    animation-delay: none;
+}
+
+/* @keyframes animatePassionAfter {
+
+    0%,
+    100% {
+        clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+        transform: translateX(-50%) translateY(-2rem);
+        background: rgb(0, 0, 0);
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    25% {
+        clip-path: polygon(50% 0, 100% 25%, 100% 100%, 0 100%, 0 25%);
+        transform: translateX(-50%) translateY(5rem);
+        background: rgb(15.5, 15.5, 15.5);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    50% {
+        clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+        transform: translateX(-50%) translateY(5rem);
+        background: rgb(15.5, 15.5, 15.5);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    75% {
+        clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%);
+        transform: translateX(-50%) translateY(5rem);
+        background: rgb(15.5, 15.5, 15.5);
+        opacity: 1;
+        visibility: visible;
+    }
+} */
+
+/* XXX-----XXX-----XXX Styles For .animated-balls-container div XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For .hello-world div XXX-----XXX-----XXX */
+
+:is(.home-content) .hello-world {
+
+    --hello-world-gap: 6.5rem;
+    --hello-world-margin: 11rem;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--hello-world-gap);
+    margin-top: var(--hello-world-margin);
+
+}
+
+:is(.home-content, .hello-world) .letter-1,
+:is(.home-content, .hello-world) .letter-2,
+:is(.home-content, .hello-world) .letter-3,
+:is(.home-content, .hello-world) .letter-4,
+:is(.home-content, .hello-world) .letter-5,
+:is(.home-content, .hello-world) .letter-6,
+:is(.home-content, .hello-world) .letter-7,
+:is(.home-content, .hello-world) .letter-8,
+:is(.home-content, .hello-world) .letter-9,
+:is(.home-content, .hello-world) .letter-10,
+:is(.home-content, .hello-world) .letter-11 {
+
+    --hello-world-letter-1-color: rgb(32, 247, 4);
+    --hello-world-letter-2-color: rgb(32, 247, 4);
+    --hello-world-letter-3-color: rgb(231, 247, 4);
+    --hello-world-letter-4-color: rgb(231, 247, 4);
+    --hello-world-letter-5-color: rgb(247, 4, 4);
+    --hello-world-letter-6-color: rgb(117, 4, 247);
+    --hello-world-letter-7-color: rgb(247, 4, 4);
+    --hello-world-letter-8-color: rgb(117, 4, 247);
+    --hello-world-letter-9-color: rgb(247, 4, 174);
+    --hello-world-letter-10-color: rgb(247, 4, 174);
+    --hello-world-letter-11-color: rgb(255, 255, 255);
+
+    --hello-world-text-color: #ffffff;
+    --hello-world-text-font-size: 2.1rem;
+    --hello-world-text-text-shadow: 0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20),
+        0rem 0rem .11rem rgb(20, 20, 20);
+    --hello-world-text-transform: matrix(6, 1, 1, 4, 0, 0);
+    --hello-world-text-transition: all 1.5s ease-in-out;
+    --hello-world-text-transition-delay: 0.3s;
+
+    position: relative;
+    text-transform: uppercase;
+    font-size: var(--hello-world-text-font-size);
+    font-weight: 600;
+    text-shadow: var(--hello-world-text-text-shadow);
+    white-space: nowrap;
+    transform: var(--hello-world-text-transform);
+    transition: var(--hello-world-text-transition);
+    transition-delay: var(--hello-world-text-transition-delay);
+    z-index: -1;
+    animation: changeLettersColor 10s ease-in-out infinite;
+
+}
+
+@keyframes changeLettersColor {
+
+    5% {
+        color: #AA076B;
+    }
+
+    25% {
+        color: #FF8008;
+    }
+
+    40% {
+        color: #26D0CE;
+    }
+
+    65% {
+        color: #F45C43;
+    }
+
+    85% {
+        color: #d31027;
+    }
+
+}
+
+:is(.home-content, .hello-world) .letter-1 {
+    color: var(--hello-world-letter-1-color);
+    animation: animateLetterH 10s linear infinite;
+    animation-delay: 0.1s;
+}
+
+:is(.home-content, .hello-world) .letter-2 {
+    color: var(--hello-world-letter-2-color);
+    animation: animateLetterE 10s linear infinite;
+    animation-delay: 0.2s;
+}
+
+:is(.home-content, .hello-world) .letter-3 {
+    color: var(--hello-world-letter-3-color);
+    animation: animateLetterL 10s linear infinite;
+    animation-delay: 0.3s;
+}
+
+:is(.home-content, .hello-world) .letter-4 {
+    color: var(--hello-world-letter-4-color);
+    animation: animateLetterL 10s linear infinite;
+    animation-delay: 0.4s;
+}
+
+:is(.home-content, .hello-world) .letter-5 {
+    color: var(--hello-world-letter-5-color);
+    animation: animateLetterO 10s linear infinite;
+    animation-delay: 0.5s;
+}
+
+:is(.home-content, .hello-world) .letter-6 {
+    color: var(--hello-world-letter-6-color);
+    animation: animateLetterW 10s linear infinite;
+    animation-delay: 0.6s;
+}
+
+:is(.home-content, .hello-world) .letter-7 {
+    color: var(--hello-world-letter-7-color);
+    animation: animateLetterO 10s linear infinite;
+    animation-delay: 0.7s;
+}
+
+:is(.home-content, .hello-world) .letter-8 {
+    color: var(--hello-world-letter-8-color);
+    animation: animateLetterW 10s linear infinite;
+    animation-delay: 0.8s;
+}
+
+:is(.home-content, .hello-world) .letter-9 {
+    color: var(--hello-world-letter-9-color);
+    animation: animateLetterL 10s linear infinite;
+    animation-delay: 0.9s;
+}
+
+:is(.home-content, .hello-world) .letter-10 {
+    color: var(--hello-world-letter-10-color);
+    animation: animateLetterH 10s linear infinite;
+    animation-delay: 1s;
+}
+
+:is(.home-content, .hello-world) .letter-11 {
+    color: var(--hello-world-letter-11-color);
+    animation: animateExclamationMark 4s ease-in-out infinite;
+    animation-delay: 1.2s;
+}
+
+/* @keyframes animateLetterH {
+
+    0%,
+    100% {
+        transform: matrix(6, 1, 1, 4, 0, 0) scaleX(1);
+    }
+
+    50% {
+        transform: matrix(6, 1, 1, 4, 0, 0) scaleX(0.7);
+    }
+
+}
+
+@keyframes animateLetterE {
+
+    0%,
+    100% {
+        transform: matrix(6, 1, 1, 4, 0, 0) translateX(0);
+    }
+
+    50% {
+        transform: matrix(6, 1, 1, 4, 0, 0) translateX(0.2rem);
+    }
+
+}
+
+@keyframes animateLetterL {
+
+    0%,
+    100% {
+        transform: matrix(6, 1, 1, 4, 0, 0) scale(1) translateX(0rem);
+    }
+
+    50% {
+        transform: matrix(6, 0, 0, 4, 0, 0) scale(0.8);
+    }
+
+}
+
+@keyframes animateLetterO {
+
+    0%,
+    100% {
+        transform: matrix(6, 1, 1, 4, 0, 0) perspective(400px) rotateY(0deg);
+    }
+
+    50% {
+        transform: matrix(6, 1, 1, 4, 0, 0) perspective(400px) rotateY(360deg);
+    }
+
+}
+
+@keyframes animateLetterW {
+
+    0%,
+    100% {
+        transform: matrix(6, 1, 1, 4, 0, 0) translateX(0rem);
+    }
+
+    50% {
+        transform: matrix(6, 1, 1, 4, 0, 0) translateX(0.3rem);
+    }
+
+} */
+
+/* @keyframes animateExclamationMark {
+
+    0%,
+    100% {
+        transform: matrix(6, 1, 1, 4, 0, 0) translateY(0);
+        color: #ffffff;
+        text-shadow: 0rem 0rem .1rem #4b0082,
+            0rem 0rem .1rem #4b0082,
+            0rem 0rem .1rem #4b0082,
+            0rem 0rem .1rem #4b0082,
+            0rem 0rem .1rem #4b0082,
+            0rem 0rem .1rem #4b0082,
+            0rem 0rem .1rem #4b0082,
+            0rem 0rem .1rem #4b0082;
+    }
+
+    50% {
+        transform: matrix(6, 1, 1, 4, 0, 0) translateY(0.3rem);
+        color: #000000;
+        text-shadow: 0rem 0rem .1rem #11ffbd,
+            0rem 0rem .1rem #11ffbd,
+            0rem 0rem .1rem #11ffbd,
+            0rem 0rem .1rem #11ffbd,
+            0rem 0rem .1rem #11ffbd,
+            0rem 0rem .1rem #11ffbd,
+            0rem 0rem .1rem #11ffbd,
+            0rem 0rem .1rem #11ffbd;
+    }
+} */
+
+/* XXX-----XXX-----XXX Styles For .hello-world div XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For .introduction div XXX-----XXX-----XXX */
+
+:is(.home-content) .introduction {
+
+    --intro-gap: 5rem;
+    --intro-margin: 10rem 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: var(--intro-margin);
+    gap: var(--intro-gap);
+
+}
+
+/* XXX-----XXX-----XXX Styles For .tv-container div XXX-----XXX-----XXX */
+
+:is(.introduction) .tv-container {
+
+    --tv-container-transition: all 0.5s ease-in-out;
+
+    perspective: 100em;
+    transition: var(--tv-container-transition);
+
+}
+
+/* XXX-----XXX-----XXX Styles For .television div And It's Children's XXX-----XXX-----XXX */
+
+:is(.introduction, .tv-container) .television {
+
+    --television-width: 55rem;
+    --television-height: 28rem;
+    --television-transition: all 1.5s ease-in-out;
+
+    position: relative;
+    width: var(--television-width);
+    height: var(--television-height);
+    transform-style: preserve-3d;
+    transition: var(--television-transition);
+
+}
+
+:is(.introduction, .tv-container) .television::before {
+
+    --television-before-font-color: #af95c7;
+    --television-before-font-size: 3.5rem;
+    --television-before-text-shadow: 1px 1px 1px #000000,
+        0px 1px 0 rgba(0, 0, 0, 0.480),
+        0px 2px 0 rgba(0, 0, 0, 0.480),
+        0px 3px 0 rgba(0, 0, 0, 0.480),
+        0px 4px 0 rgba(0, 0, 0, 0.480),
+        0px 5px 0 rgba(0, 0, 0, 0.480),
+        0px 6px 0 rgba(0, 0, 0, 0.480),
+        0px 7px 0 rgba(0, 0, 0, 0.480);
+    --television-before-transition: all 1.5s ease-in-out;
+    --television-before-transition-delay: 0.3s;
+
+    content: '< WELCOME />';
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: var(--television-before-font-color);
+    font-size: var(--television-before-font-size);
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+    text-shadow: var(--television-before-text-shadow);
+    white-space: nowrap;
+
+    transition: var(--television-before-transition);
+    transition-delay: var(--television-before-transition-delay);
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+:is(.introduction, .tv-container) .television::after {
+
+    --television-after-background-color: #181818;
+    --television-after-transition: all 1.5s ease-in-out;
+
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    background-color: var(--television-after-background-color);
+    background-image: url('../assets/about-thumbnail.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: var(--television-after-transition);
+
+}
+
+/* XXX-----XXX-----XXX Styles When .television Is off XXX-----XXX-----XXX */
+
+:is(.introduction, .tv-container) .television.off {
+
+    --television-off-background: #000000;
+    --television-off-transition: background 1s ease-in-out;
+    --television-off-transition-delay: 0.1s;
+
+    background: var(--television-off-background);
+    transition: var(--television-off-transition);
+    transition-delay: var(--television-off-transition-delay);
+
+}
+
+:is(.introduction, .tv-container) .television.off::after {
+
+    --television-off-after-transition: all 0.6s ease-in-out;
+    --television-off-after-transition-delay: 0.3s;
+
+    opacity: 0;
+    filter: blur(1.5px) contrast(100%);
+    visibility: hidden;
+    transition: var(--television-off-after-transition);
+    transition-delay: var(--television-off-after-transition-delay);
+
+}
+
+/* XXX-----XXX-----XXX Styles When .television Is off XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles When .television Is open XXX-----XXX-----XXX */
+
+:is(.introduction, .tv-container) .television.open {
+
+    --television-open-background: #181818;
+    --television-open-transition: background 1s ease-in-out;
+    --television-open-transition-delay: 0.1s;
+
+    background: var(--television-open-background);
+    transition: var(--television-open-transition);
+    transition-delay: var(--television-open-transition-delay);
+
+}
+
+:is(.introduction, .tv-container) .television.open::before {
+    animation: animateWelcomeText 3s alternate;
+    animation-delay: 1.5s;
+}
+
+@keyframes animateWelcomeText {
+
+    0%,
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    50% {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+:is(.introduction, .tv-container) .television.open::after {
+
+    --television-open-after-transition: all 0.4s ease-in-out;
+    --television-open-after-transition-delay: 4.5s;
+
+    opacity: 1;
+    filter: blur(1.5px) contrast(100%);
+    visibility: visible;
+    transition: var(--television-open-after-transition);
+    transition-delay: var(--television-open-after-transition-delay);
+
+}
+
+/* XXX-----XXX-----XXX Styles When .television Is open XXX-----XXX-----XXX */
+
+/* - - - - - - - - - - - - - */
+
+:is(.introduction, .tv-container, .television) .television-front {
+
+    --television-front-background-image: linear-gradient(0deg, rgb(20, 20, 20) 2em, transparent 2em),
+        linear-gradient(90deg, rgb(20, 20, 20) 2em, transparent 2em),
+        linear-gradient(180deg, rgb(20, 20, 20) 2em, transparent 2em),
+        linear-gradient(270deg, rgb(20, 20, 20) 2em, transparent 2em);
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: var(--television-front-background-image);
+    transform: translateZ(2em);
+
+}
+
+:is(.introduction, .tv-container, .television) .television-topIn,
+:is(.introduction, .tv-container, .television) .television-topOut {
+
+    --television-topIn-topOut-height: 2em;
+    --television-topIn-topOut-background-color: linear-gradient(0deg, rgb(15, 15, 15) 2em, transparent 2em),
+        linear-gradient(90deg, rgb(15, 15, 15) 2em, transparent 2em),
+        linear-gradient(180deg, rgb(15, 15, 15) 2em, transparent 2em),
+        linear-gradient(270deg, rgb(15, 15, 15) 2em, transparent 2em);
+
+    position: absolute;
+    height: 2em;
+    background: var(--television-topIn-topOut-background-color);
+    transform-origin: top;
+    transform: rotateX(90deg);
+
+}
+
+:is(.introduction, .tv-container, .television) .television-topIn {
+
+    --television-topIn-width: calc(100% - 4em);
+
+    bottom: 0;
+    left: 2em;
+    width: var(--television-topIn-width);
+
+}
+
+:is(.introduction, .tv-container, .television) .television-topOut {
+
+    --television-topOut-width: 100%;
+
+    top: 0;
+    left: 0;
+    width: var(--television-topOut-width);
+
+}
+
+:is(.introduction, .tv-container, .television) .television-bottomIn,
+:is(.introduction, .tv-container, .television) .television-bottomOut {
+
+    --television-bottomIn-bottomOut-background-color: linear-gradient(0deg, rgb(15, 15, 15) 2em, transparent 2em),
+        linear-gradient(90deg, rgb(15, 15, 15) 2em, transparent 2em),
+        linear-gradient(180deg, rgb(15, 15, 15) 2em, transparent 2em),
+        linear-gradient(270deg, rgb(15, 15, 15) 2em, transparent 2em);
+
+    position: absolute;
+    height: 2em;
+    background: var(--television-bottomIn-bottomOut-background-color);
+    transform-origin: bottom;
+    transform: rotateX(-90deg);
+
+}
+
+:is(.introduction, .tv-container, .television) .television-bottomIn {
+
+    --television-bottomIn-width: calc(100% - 4em);
+
+    top: 0;
+    left: 2em;
+    width: var(--television-bottomIn-width);
+
+}
+
+:is(.introduction, .tv-container, .television) .television-bottomOut {
+
+    --television-bottomOut-width: 100%;
+
+    bottom: 0;
+    left: 0;
+    width: var(--television-bottomOut-width);
+
+}
+
+:is(.introduction, .tv-container, .television) .television-leftIn,
+:is(.introduction, .tv-container, .television) .television-leftOut {
+
+    --television-leftIn-leftOut-background-color: linear-gradient(0deg, rgb(15, 15, 15) 2em, transparent 2em),
+        linear-gradient(90deg, rgb(15, 15, 15) 2em, transparent 2em),
+        linear-gradient(180deg, rgb(15, 15, 215) 2em, transparent 2em);
+
+    position: absolute;
+    width: 2em;
+    background: var(--television-leftIn-leftOut-background-color);
+    transform-origin: left;
+    transform: rotateY(-90deg);
+
+}
+
+:is(.introduction, .tv-container, .television) .television-leftIn {
+
+    --television-leftIn-height: calc(100% - 4em);
+
+    top: 2em;
+    right: 0;
+    height: var(--television-leftIn-height);
+
+}
+
+:is(.introduction, .tv-container, .television) .tv-leftOut {
+
+    --television-leftOut-height: 100%;
+
+    top: 0;
+    left: 0;
+    height: var(--television-leftOut-height);
+
+}
+
+:is(.introduction, .tv-container, .television) .television-rightIn,
+:is(.introduction, .tv-container, .television) .television-rightOut {
+
+    --television-rightIn-rightOut-background-color: linear-gradient(0deg, rgb(15, 15, 15) 2em, transparent 2em),
+        linear-gradient(90deg, rgb(15, 15, 15) 2em, transparent 2em),
+        linear-gradient(180deg, rgb(15, 15, 15) 2em, transparent 2em),
+        linear-gradient(270deg, rgb(15, 15, 15) 2em, transparent 2em);
+
+    position: absolute;
+    width: 2em;
+    background: var(--television-rightIn-rightOut-background-color);
+    transform-origin: right;
+    transform: rotateY(90deg);
+
+}
+
+:is(.introduction, .tv-container, .television) .television-rightIn {
+
+    --television-rightIn-height: calc(100% - 4em);
+
+    top: 2em;
+    left: 0;
+    height: var(--television-rightIn-height);
+
+}
+
+:is(.introduction, .tv-container, .television) .television-rightOut {
+
+    --television-rightOut-height: 100%;
+
+    top: 0;
+    right: 0;
+    height: var(--television-rightOut-height);
+
+}
+
+/* - - - - - - - - - - - - - */
+
+/* XXX-----XXX-----XXX Styles For .television-indicator div XXX-----XXX-----XXX */
+
+:is(.introduction, .tv-container) .television-indicator {
+
+    --television-indicator-width: 7px;
+    --television-indicator-border-radius: 50%;
+    --television-indicator-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
+
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: var(--television-indicator-width);
+    aspect-ratio: 1;
+    border-radius: 50%;
+    box-shadow: var(--television-indicator-box-shadow);
+    z-index: 1;
+
+}
+
+:is(.introduction, .tv-container) .television-indicator.off,
+:is(.introduction, .tv-container) .television-indicator.on {
+
+    --television-indicator-off-background-color: red;
+    --television-indicator-on-background-color: rgb(0, 247, 0);
+    --television-indicator-on-off-transition: background 1.5s ease-in-out;
+    --television-indicator-on-off-transition-delay: 0.1s;
+
+    transition: var(--television-indicator-on-off-transition);
+    transition-delay: var(--television-indicator-on-off-transition-delay);
+
+}
+
+:is(.introduction, .tv-container) .television-indicator.off {
+    background-color: var(--television-indicator-off-background-color);
+}
+
+:is(.introduction, .tv-container) .television-indicator.on {
+    background-color: var(--television-indicator-on-background-color);
+}
+
+/* XXX-----XXX-----XXX Styles For .television-indicator div XXX-----XXX-----XXX */
+
+/* - - - - - - - - - - - - - */
+
+/* - - - - - - - - - - - - - */
+
+/* XXX-----XXX-----XXX Styles For .play-btn div XXX-----XXX-----XXX */
+
+:is(.introduction, .tv-container, .television) .play-btn,
+:is(.introduction, .tv-container, .television) .swipe-up-btn {
+
+    --television-playBtn-width: 5rem;
+    --television-playBtn-color: #ffffff;
+    --television-playBtn-font-size: 3rem;
+    --television-playBtn-background-color: linear-gradient(to bottom right, rgb(128, 4, 199), rgb(5, 37, 219));
+    --television-playBtn-text-shadow: -1px -1px 1px #efede3,
+        0px 1px 0 rgba(0, 0, 0, 0.480),
+        0px 2px 0 rgba(0, 0, 0, 0.480),
+        0px 3px 0 rgba(0, 0, 0, 0.480),
+        0px 4px 0 rgba(0, 0, 0, 0.480),
+        0px 5px 0 rgba(0, 0, 0, 0.480),
+        0px 6px 0 rgba(0, 0, 0, 0.480),
+        0px 7px 0 rgba(0, 0, 0, 0.480);
+    --television-playBtn-box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.300);
+
+    content: '';
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: var(--television-playBtn-width);
+    aspect-ratio: 1;
+    color: var(--television-playBtn-color);
+    font-size: var(--television-playBtn-font-size);
+    background: var(--television-playBtn-background-color);
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    text-shadow: var(--television-playBtn-text-shadow);
+    box-shadow: var(--television-playBtn-box-shadow);
+
+}
+
+:is(.introduction, .tv-container, .television) .play-btn.appear,
+:is(.introduction, .tv-container, .television) .swipe-up-btn.appear {
+
+    --television-playBtn-appear-transition: all 0.4s ease-in-out;
+    --television-playBtn-appear-transition-delay: 4.5s;
+
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+    transition: var(--television-playBtn-appear-transition);
+    transition-delay: var(--television-playBtn-appear-transition-delay);
+
+}
+
+:is(.introduction, .tv-container, .television.disappear) .play-btn.disappear,
+:is(.introduction, .tv-container, .television) .swipe-up-btn.disappear {
+
+    --television-playBtn-disappear-opacity: 0;
+    --television-playBtn-disappear-transition: all 0.6s ease-in-out;
+    --television-playBtn-disappear-transition-delay: 0.3s;
+
+    opacity: 0;
+    visibility: visible;
+    z-index: 1;
+    transition: var(--television-playBtn-disappear-transition);
+    transition-delay: var(--television-playBtn-disappear-transition-delay);
+
+}
+
+:is(.introduction, .tv-container, .television) .swipe-up-btn {
+    display: none;
+}
+
+/* XXX-----XXX-----XXX Styles For .play-btn div XXX-----XXX-----XXX */
+
+/* - - - - - - - - - - - - - */
+
+/* XXX-----XXX-----XXX Styles For .television div And It's Children's XXX-----XXX-----XXX */
+
+/* - - - - - - - - - - - - - */
+
+/* XXX-----XXX-----XXX Styles For .television-leg div And .television-step div XXX-----XXX-----XXX */
+
+:is(.introduction, .tv-container) .television-leg,
+:is(.introduction, .tv-container) .television-step {
+
+    --television-leg-step-background: linear-gradient(0deg, rgb(20, 20, 20) 2em, transparent 2em),
+        linear-gradient(90deg, rgb(20, 20, 20) 2em, transparent 2em),
+        linear-gradient(180deg, rgb(20, 20, 20) 2em, transparent 2em),
+        linear-gradient(270deg, rgb(20, 20, 20) 2em, transparent 2em);
+    --television-leg-step-transition: all 1.5s ease-in-out;
+
+    position: relative;
+    border-radius: 3px;
+    background: var(--television-leg-step-background);
+    transition: var(--television-leg-step-transition);
+    overflow: hidden;
+
+}
+
+:is(.introduction, .tv-container) .television-leg {
+
+    --television-leg-width: 30px;
+    --television-leg-height: 75px;
+
+    width: var(--television-leg-width);
+    height: var(--television-leg-height);
+    left: 50%;
+    z-index: -1;
+
+}
+
+:is(.introduction, .tv-container) .television-step {
+
+    --television-step-width: 120px;
+    --television-step-height: 15px;
+
+    width: var(--television-step-width);
+    height: var(--television-step-height);
+    left: 50%;
+    z-index: -1;
+
+}
+
+:is(.introduction, .tv-container) .television-leg.collapsed,
+:is(.introduction, .tv-container) .television-leg.expand,
+:is(.introduction, .tv-container) .television-step.collapsed,
+:is(.introduction, .tv-container) .television-step.expand {
+
+    --television-leg-step-collapsed-expand-transition: bottom 1.6s cubic-bezier(0.625, 0.025, 0.325, 1) 0.1s,
+        transform 1.6s cubic-bezier(0.625, 0.025, 0.325, 1) 0.1s;
+
+    transition: var(--television-leg-step-collapsed-expand-transition);
+
+}
+
+:is(.introduction, .tv-container) .television-leg.collapsed {
+    bottom: 110px;
+    transform: translateX(-50%);
+}
+
+:is(.introduction, .tv-container) .television-leg.expand {
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+:is(.introduction, .tv-container) .television-step.collapsed {
+    bottom: 110px;
+    transform: skew(0.5turn);
+}
+
+:is(.introduction, .tv-container) .television-step.expand {
+    bottom: 15px;
+    transform: translateX(-50%);
+}
+
+/* XXX-----XXX-----XXX Styles For .television-leg div And .television-step div XXX-----XXX-----XXX */
+
+/* - - - - - - - - - - - - - */
+
+/* - - - - - - - - - - - - - */
+
+/* XXX-----XXX-----XXX Styles for .my-picture div XXX-----XXX-----XXX */
+
+:is(.introduction, .tv-container, .television) .my-picture::before,
+:is(.introduction, .tv-container, .television) .my-picture::after {
+
+    --my-picture-before-after-width: 21rem;
+    --my-picture-before-after-background-color: #090909;
+    --my-picture-before-transition: all 1.5s ease-in-out;
+
+    content: '';
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 50%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+
+    width: var(--my-picture-before-after-width);
+    aspect-ratio: 1;
+    background-color: var(--my-picture-before-after-background-color);
+    border-radius: 50%;
+    border: 2px solid rgb(190, 4, 247);
+    background-image: url('../assets/Tayyab_Ali.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+:is(.introduction, .tv-container, .television) .my-picture::before {
+    filter: blur(1px) grayscale(100%);
+    transition: var(--my-picture-before-transition);
+}
+
+:is(.introduction, .tv-container, .television) .my-picture::after {
+    animation: animateMyPicture 15s ease-in-out infinite;
+}
+
+@keyframes animateMyPicture {
+
+    0%,
+    100% {
+        clip-path: inset(0 0 0 0);
+    }
+
+    25%,
+    75% {
+        clip-path: inset(0 50% 0 0);
+    }
+
+    50% {
+        clip-path: inset(0 100% 0 0);
+    }
+}
+
+/* XXX-----XXX-----XXX Styles for .my-picture When It .appear And .disappear XXX-----XXX-----XXX */
+
+:is(.introduction, .tv-container, .television.open) .my-picture.appear {
+
+    --my-picture-appear-transition: all 1.5s ease-in-out;
+    --my-picture-appear-transition-delay: 1.7s;
+
+    opacity: 1;
+    visibility: visible;
+    transition: var(--my-picture-appear-transition);
+    transition-delay: var(--my-picture-appear-transition-delay);
+
+}
+
+:is(.introduction, .tv-container, .television.open) .my-picture.disappear {
+
+    --my-picture-disappear-transition: all 0.2s ease-in-out;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--my-picture-disappear-transition);
+
+}
+
+/* XXX-----XXX-----XXX Styles for .my-picture When It .appear And .disappear XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles for .my-picture div When .switch-theme XXX-----XXX-----XXX */
+
+:is(.introduction, .tv-container, .television.open) .my-picture.switch-theme::before,
+:is(.introduction, .tv-container, .television.open) .my-picture.switch-theme::after {
+    border: 2px solid rgb(255, 0, 0);
+}
+
+/* XXX-----XXX-----XXX Styles for .my-picture div When .switch-theme XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles for .my-picture div XXX-----XXX-----XXX */
+
+/* - - - - - - - - - - - - - */
+
+/* XXX-----XXX-----XXX Styles for .about div And It's Children's XXX-----XXX-----XXX */
+
+:is(.introduction, .tv-container, .television) .about {
+
+    --about-gap: 1.2rem;
+    --about-width: 1rem;
+    --about-height: 15rem;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--about-gap);
+
+    width: var(--about-width);
+    height: var(--about-height);
+
+}
+
+:is(.introduction, .tv-container, .television) .about::before,
+:is(.introduction, .tv-container, .television) .about::after {
+
+    --about-before-after-font-color: #ffffff;
+    --about-before-after-font-size: 1.3rem;
+    --about-before-after-text-shadow: 0rem 0rem 0rem #efede3bb,
+        0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.900),
+        0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.900);
+    --about-before-after-width: 3rem;
+    --about-before-after-transition: all 1.5s ease-in-out;
+    --about-before-after-transition-delay: 0.2s;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: var(--about-before-after-font-color);
+    font-size: var(--about-before-after-font-size);
+    font-weight: 700;
+    text-shadow: var(--about-before-after-text-shadow);
+    box-shadow: var(--about-before-after-text-shadow);
+
+    width: var(--about-before-after-width);
+    aspect-ratio: 1;
+    border-radius: 0.3rem;
+
+    transition: var(--about-before-after-transition);
+    transition-delay: var(--about-before-after-transition-delay);
+
+}
+
+:is(.introduction, .tv-container, .television) .about::before {
+
+    --about-before-background-color: rgb(247, 4, 117);
+    --about-switch-theme-before-background-color: rgb(247, 243, 4);
+
+    content: '</>';
+
+    top: 0;
+    background: var(--about-before-background-color);
+
+    animation: animateBeforeAfter 15s linear infinite,
+        changeBeforeContent 10s ease-in-out infinite;
+
+}
+
+:is(.introduction, .tv-container, .television) .about::after {
+
+    --about-after-background-color: rgb(247, 4, 4);
+    --about-switch-theme-after-background-color: rgb(214, 6, 241);
+
+    content: '{}';
+
+    top: 100%;
+    background: var(--about-after-background-color);
+
+    animation: animateBeforeAfter 15s linear infinite,
+        changeAfterContent 10s ease-in-out infinite;
+
+}
+
+@keyframes animateBeforeAfter {
+
+    0%,
+    100% {
+        transform: translate(-50%, -50%) rotateY(0deg);
+    }
+
+    50% {
+        transform: translate(-50%, -50%) rotateY(360deg);
+    }
+
+}
+
+@keyframes changeBeforeContent {
+
+    0%,
+    100% {
+        content: '</>';
+    }
+
+    50% {
+        content: '<>';
+    }
+
+}
+
+@keyframes changeAfterContent {
+
+    0%,
+    100% {
+        content: '{}';
+    }
+
+    50% {
+        content: '()';
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles for .about div When It .appear And .disappear XXX-----XXX-----XXX */
+
+:is(.introduction, .tv-container, .television.open) .about.appear {
+
+    --about-appear-background: #090909;
+    --about-appear-transition: background 1.5s ease-in-out;
+    --about-appear-transition-delay: 2.3s;
+
+    background: var(--about-appear-background);
+    transition: var(--about-appear-transition);
+    transition-delay: var(--about-appear-transition-delay);
+
+}
+
+:is(.introduction, .tv-container, .television.open) .about.disappear {
+
+    --about-disappear-transition: background 0.2s ease-in-out;
+
+    background: transparent;
+    transition: var(--about-disappear-transition);
+
+}
+
+:is(.introduction, .tv-container, .television.open) .about.appear::before,
+:is(.introduction, .tv-container, .television.open) .about.appear::after {
+
+    --about-appear-before-after-transition: 1.5s ease-in-out;
+    --about-appear-before-after-transition-delay: 2.9s;
+
+    opacity: 1;
+    visibility: visible;
+    transition: opacity var(--about-appear-before-after-transition),
+        visibility var(--about-appear-before-after-transition);
+    transition-delay: var(--about-appear-before-after-transition-delay);
+
+}
+
+:is(.introduction, .tv-container, .television.open) .about.disappear::before,
+:is(.introduction, .tv-container, .television.open) .about.disappear::after {
+
+    --about-disappear-before-after-transition: all 0.2s ease-in-out;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--about-disappear-before-after-transition);
+
+}
+
+/* XXX-----XXX-----XXX Styles for .about div When It .appear And .disappear XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles for .about div When .switch-theme XXX-----XXX-----XXX */
+
+:is(.introduction, .tv-container, .television.open) .about.switch-theme::before {
+    background: var(--about-switch-theme-before-background-color);
+}
+
+:is(.introduction, .tv-container, .television.open) .about.switch-theme::after {
+    background: var(--about-switch-theme-after-background-color);
+}
+
+/* XXX-----XXX-----XXX Styles for .about div When .switch-theme XXX-----XXX-----XXX */
+
+/* - - - - - - - - - - - - - */
+
+/* XXX-----XXX-----XXX Styles for h2.field-text And h3.name-text XXX-----XXX-----XXX */
+
+:is(.introduction, .tv-container, .television, .about) .field-text,
+:is(.introduction, .tv-container, .television, .about) .name-text {
+
+    --about-fieldText-nameText-width: 20rem;
+    --about-fieldText-nameText-margin: 3rem;
+    --about-fieldText-nameText-padding: 0.6rem;
+    --about-fieldText-nameText-background-color: #090909;
+    --about-fieldText-nameText-color: #ffffff;
+    --about-fieldText-nameText-text-shadow:
+        0rem .1rem 0rem rgba(109, 109, 109, 0.314),
+        0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.900),
+        0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.900);
+    --about-fieldText-nameText-box-shadow:
+        0rem 0rem 0rem rgba(109, 109, 109, 0.314),
+        0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.900),
+        0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.900);
+    --about-fieldText-nameText-font-size: 1.4rem;
+    --about-fieldText-nameText-transition: all 1.5s ease-in-out;
+
+    position: relative;
+    margin-left: var(--about-fieldText-nameText-margin);
+    padding: var(--about-fieldText-nameText-padding);
+
+    width: var(--about-fieldText-nameText-width);
+    background: var(--about-fieldText-nameText-background-color);
+    box-shadow: var(--about-fieldText-nameText-box-shadow);
+    color: var(--about-fieldText-nameText-color);
+
+    text-align: center;
+    text-shadow: var(--about-fieldText-nameText-text-shadow);
+    font-size: var(--about-fieldText-nameText-font-size);
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    white-space: nowrap;
+
+    transition: var(--about-fieldText-nameText-transition);
+
+}
+
+:is(.introduction, .tv-container, .television, .about) .field-text::before,
+:is(.introduction, .tv-container, .television, .about) .field-text::after {
+
+    --about-fieldText-before-after-height: 0.11rem;
+    --about-fieldText-before-after-background-color: rgb(247, 4, 105);
+    --about-fieldText-before-after-transition: all 1.5s ease-in-out;
+
+    --about-fieldText-before-after-switch-theme-background-color: rgb(4, 109, 247);
+
+    content: '';
+
+    position: absolute;
+    left: 0;
+
+    width: 100%;
+    height: var(--about-fieldText-before-after-height);
+    background-color: var(--about-fieldText-before-after-background-color);
+
+    transition: var(--about-fieldText-before-after-transition);
+    animation: animateNameIndicators 5s ease-in-out infinite;
+
+}
+
+:is(.introduction, .tv-container, .television, .about) .field-text::before {
+    top: 0;
+}
+
+:is(.introduction, .tv-container, .television, .about) .field-text::after {
+    bottom: 0;
+}
+
+:is(.introduction, .tv-container, .television, .about) .name-text::before,
+:is(.introduction, .tv-container, .television, .about) .name-text::after {
+
+    --about-nameText-before-after-width: 7px;
+    --about-nameText-before-after-background-color: rgb(247, 211, 4);
+    --about-nameText-before-after-transition: all 1.5s ease-in-out;
+
+    --about-nameText-before-after-switch-theme-background-color: rgb(97, 4, 247);
+    --about-nameText-before-after-switch-theme-transition: 1.5s;
+
+    content: '';
+
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    width: var(--about-nameText-before-after-width);
+    aspect-ratio: 1;
+    background-color: var(--about-nameText-before-after-background-color);
+    border-radius: 50%;
+
+    transition: var(--about-nameText-before-after-transition);
+    animation: animateNameIndicators 5s ease-in-out infinite;
+
+}
+
+:is(.introduction, .tv-container, .television, .about) .name-text::before {
+    left: 20%;
+}
+
+:is(.introduction, .tv-container, .television, .about) .name-text::after {
+    right: 20%;
+}
+
+@keyframes animateNameIndicators {
+
+    20% {
+        background: rgb(247, 101, 4);
+        transition: background 1s ease;
+    }
+
+    40% {
+        background: rgb(247, 4, 4);
+        transition: background 1.2s ease;
+    }
+
+    60% {
+        background: rgb(21, 255, 0);
+        transition: background 1.4s ease;
+    }
+
+    80% {
+        background: rgb(231, 247, 4);
+        transition: background 1.6s ease;
+    }
+
+    100% {
+        background: rgb(77, 4, 247);
+        transition: background 1.8s ease;
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles for h2.field-text And h3.name-text When It .appear And .disappear XXX-----XXX-----XXX */
+
+:is(.introduction, .tv-container, .television.open, .about) .field-text.appear,
+:is(.introduction, .tv-container, .television.open, .about) .name-text.appear {
+
+    --about-fieldText-nameText-appear-transition: 1.5s ease-in-out;
+    --about-fieldText-appear-transition-delay: 3.5s;
+    --about-nameText-appear-transition-delay: 4.5s;
+
+    opacity: 1;
+    visibility: visible;
+    transition: opacity var(--about-fieldText-nameText-appear-transition),
+        visibility var(--about-fieldText-nameText-appear-transition);
+
+}
+
+:is(.introduction, .tv-container, .television.open, .about) .field-text.appear {
+    transition-delay: var(--about-fieldText-appear-transition-delay);
+}
+
+:is(.introduction, .tv-container, .television.open, .about) .name-text.appear {
+    transition-delay: var(--about-nameText-appear-transition-delay);
+}
+
+:is(.introduction, .tv-container, .television.open, .about) .field-text.disappear,
+:is(.introduction, .tv-container, .television.open, .about) .name-text.disappear {
+
+    --about-fieldText-nameText-disappear-opacity: 0;
+    --about-fieldText-nameText-disappear-transition: all 0.2s ease-in-out;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--about-fieldText-nameText-disappear-transition);
+
+}
+
+/* XXX-----XXX-----XXX Styles for h2.field-text And h3.name-text When It .appear And .disappear XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles for h2.field-text and h3.name-text When .switch-theme XXX-----XXX-----XXX */
+
+:is(.introduction, .tv-container, .television, .about) .field-text.switch-theme::before,
+:is(.introduction, .tv-container, .television, .about) .field-text.switch-theme::after {
+    background: var(--about-fieldText-before-after-switch-theme-background-color);
+}
+
+:is(.introduction, .tv-container, .television, .about) .name-text.switch-theme::before,
+:is(.introduction, .tv-container, .television, .about) .name-text.switch-theme::after {
+    background: var(--about-nameText-before-after-switch-theme-background-color);
+}
+
+/* XXX-----XXX-----XXX Styles for h2.field-text and h3.name-text When .switch-theme XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles for h2.field-text And h3.name-text XXX-----XXX-----XXX */
+
+/* - - - - - - - - - - - - - */
+
+/* - - - - - - - - - - - - - */
+
+/* XXX-----XXX-----XXX Styles for .languages div And It's Children's XXX-----XXX-----XXX */
+
+:is(.introduction, .tv-container, .television, .about) .languages {
+
+    --languages-with: 20rem;
+    --languages-margin: 3rem;
+    --languages-gap: 1.2rem;
+    --languages-transition: all 0.5s ease-in-out;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: var(--languages-gap);
+    width: var(--languages-with);
+    margin-left: var(--languages-margin);
+
+    transition: var(--languages-transition);
+
+
+}
+
+:is(.introduction, .tv-container, .television, .about, .languages) span {
+
+    --languages-span-color: #ffffff;
+    --languages-span-transition: all 0.5s ease-in-out;
+
+    position: relative;
+    color: var(--languages-span-color);
+
+    transition: var(--languages-span-transition);
+
+}
+
+:is(.introduction, .tv-container, .television, .about, .languages) span::after {
+
+    --languages-span-after-background-color-1: #ee5006;
+    --languages-span-after-background-color-2: rgb(5, 121, 230);
+    --languages-span-after-background-color-3: rgb(210, 224, 4);
+    --languages-span-after-background-color-4: rgb(5, 197, 245);
+
+    --languages-span-switch-theme-background-color-1: rgb(77, 4, 247);
+    --languages-span-switch-theme-background-color-2: rgb(20, 4, 247);
+    --languages-span-switch-theme-background-color-3: rgb(247, 73, 4);
+    --languages-span-switch-theme-background-color-4: rgb(24, 247, 4);
+
+    --languages-span-switch-theme-transition: all 1.5s ease-in-out;
+
+    --languages-span-after-font-size: 1.1rem;
+    --languages-span-after-font-weight: 700;
+    --languages-span-after-text-shadow: 0rem 0rem 0rem #efede3bb,
+        0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.900),
+        0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.900);
+
+    --languages-span-after-width: 4.5rem;
+    --languages-span-after-height: 5rem;
+    --languages-span-after-border-radius: 0.3rem;
+    --languages-span-after-transition: all 1.5s ease-in-out;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: var(--languages-span-after-width);
+    height: var(--languages-span-after-height);
+    border-radius: 0.3rem;
+    font-size: var(--languages-span-after-font-size);
+    font-weight: 700;
+    text-shadow: var(--languages-span-after-text-shadow);
+
+    transform-origin: left;
+    transition: var(--languages-span-after-transition);
+    animation: animateLanguages 15s linear infinite;
+
+}
+
+:is(.introduction, .tv-container, .television, .about, .languages) span:nth-child(1)::after {
+    content: 'HTML5';
+    background: var(--languages-span-after-background-color-1);
+}
+
+:is(.introduction, .tv-container, .television, .about, .languages) span:nth-child(2)::after {
+    content: 'CSS3';
+    background: var(--languages-span-after-background-color-2);
+}
+
+:is(.introduction, .tv-container, .television, .about, .languages) span:nth-child(3)::after {
+    content: 'JS';
+    background: var(--languages-span-after-background-color-3);
+}
+
+:is(.introduction, .tv-container, .television, .about, .languages) span:nth-child(4)::after {
+    content: 'REACT';
+    background: var(--languages-span-after-background-color-4);
+}
+
+@keyframes animateLanguages {
+    50% {
+        transform: perspective(100em) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
+    }
+}
+
+:is(.introduction, .tv-container, .television, .about, .languages, span) img {
+
+    --languages-span-image-width: 4rem;
+    --languages-span-image-height: 5rem;
+    --languages-span-image-padding: 0.4rem;
+    --languages-span-image-background-color: #090909;
+    --languages-span-image-border-radius: 0.3rem;
+    --languages-span-image-transition: all 0.5s ease-in-out;
+
+    width: var(--languages-span-image-width);
+    height: var(--languages-span-image-height);
+    padding: var(--languages-span-image-padding);
+    background-color: var(--languages-span-image-background-color);
+    border-radius: 0.3rem;
+
+    transition: var(--languages-span-image-transition);
+
+}
+
+/* XXX-----XXX-----XXX Styles for .languages div When It .appear And .disappear XXX-----XXX-----XXX */
+
+:is(.introduction, .tv-container, .television.open, .about, .languages) span.appear:nth-child(1)::after,
+:is(.introduction, .tv-container, .television.open, .about, .languages) span.appear:nth-child(2)::after,
+:is(.introduction, .tv-container, .television.open, .about, .languages) span.appear:nth-child(3)::after,
+:is(.introduction, .tv-container, .television.open, .about, .languages) span.appear:nth-child(4)::after {
+
+    --languages-span-appear-transition: 1.5s;
+    --languages-span1-appear-transition-delay: 5.7s;
+    --languages-span2-appear-transition-delay: 6.1s;
+    --languages-span3-appear-transition-delay: 6.5s;
+    --languages-span4-appear-transition-delay: 6.9s;
+
+    opacity: 1;
+    visibility: visible;
+    transition: opacity var(--languages-span-appear-transition) ease-in-out,
+        visibility var(--languages-span-appear-transition) ease-in-out;
+    transition-delay: var(--languages-span-appear-transition-delay);
+
+}
+
+:is(.introduction, .tv-container, .television.open, .about, .languages) span.appear:nth-child(1)::after {
+    transition-delay: var(--languages-span1-appear-transition-delay);
+}
+
+:is(.introduction, .tv-container, .television.open, .about, .languages) span.appear:nth-child(2)::after {
+    transition-delay: var(--languages-span2-appear-transition-delay);
+}
+
+:is(.introduction, .tv-container, .television.open, .about, .languages) span.appear:nth-child(3)::after {
+    transition-delay: var(--languages-span3-appear-transition-delay);
+}
+
+:is(.introduction, .tv-container, .television.open, .about, .languages) span.appear:nth-child(4)::after {
+    transition-delay: var(--languages-span4-appear-transition-delay);
+}
+
+:is(.introduction, .tv-container, .television.open, .about, .languages) span.disappear:nth-child(1)::after,
+:is(.introduction, .tv-container, .television.open, .about, .languages) span.disappear:nth-child(2)::after,
+:is(.introduction, .tv-container, .television.open, .about, .languages) span.disappear:nth-child(3)::after,
+:is(.introduction, .tv-container, .television.open, .about, .languages) span.disappear:nth-child(4)::after {
+
+    --languages-span-disappear-transition: all 0.2s ease-in-out;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--languages-span-disappear-transition);
+
+}
+
+:is(.introduction, .tv-container, .television.open, .about, .languages, span.appear:nth-child(1)) img.appear,
+:is(.introduction, .tv-container, .television.open, .about, .languages, span.appear:nth-child(2)) img.appear,
+:is(.introduction, .tv-container, .television.open, .about, .languages, span.appear:nth-child(3)) img.appear,
+:is(.introduction, .tv-container, .television.open, .about, .languages, span.appear:nth-child(4)) img.appear {
+
+    --languages-span-image-appear-transition: all 1s ease-in-out;
+    --languages-span-image-transition-delay: 5.3s;
+
+    opacity: 1;
+    visibility: visible;
+    transition: var(--languages-span-image-appear-transition);
+    transition-delay: var(--languages-span-image-transition-delay);
+
+}
+
+:is(.introduction, .tv-container, .television.open, .about, .languages, span.appear) img.disappear {
+
+    --languages-span-image-disappear-transition: all 0.1s ease-in-out;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--languages-span-image-disappear-transition);
+
+}
+
+/* XXX-----XXX-----XXX Styles for .languages div When It .appear And .disappear XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles for .languages div When .switch-theme XXX-----XXX-----XXX */
+
+:is(.introduction, .tv-container, .television, .about, .languages) span:nth-child(1).switch-theme::after {
+    background: var(--languages-span-switch-theme-background-color-1);
+}
+
+:is(.introduction, .tv-container, .television, .about, .languages) span:nth-child(2).switch-theme::after {
+    background: var(--languages-span-switch-theme-background-color-2);
+}
+
+:is(.introduction, .tv-container, .television, .about, .languages) span:nth-child(3).switch-theme::after {
+    background: var(--languages-span-switch-theme-background-color-3);
+}
+
+:is(.introduction, .tv-container, .television, .about, .languages) span:nth-child(4).switch-theme::after {
+    background: var(--languages-span-switch-theme-background-color-4);
+}
+
+/* XXX-----XXX-----XXX Styles for .languages div When .switch-theme XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles for .languages div And It's Children's XXX-----XXX-----XXX */
+
+/* - - - - - - - - - - - - - */
+
+/* XXX-----XXX-----XXX Styles for .about div And It's Children's XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For .tv-remote-container div And It's Children's XXX-----XXX-----XXX */
+
+:is(.introduction) .tv-remote-container {
+
+    --television-remote-container-width: 18rem;
+    --television-remote-container-background:
+        linear-gradient(0deg, rgb(20, 20, 20) 2em, transparent 2em),
+        linear-gradient(90deg, rgb(20, 20, 20) 2em, transparent 2em),
+        linear-gradient(180deg, rgb(20, 20, 20) 2em, transparent 2em),
+        linear-gradient(270deg, rgb(20, 20, 20) 2em, transparent 2em);
+    --television-remote-container-transition: all 1.5s ease-in-out;
+
+    width: var(--television-remote-container-width);
+    aspect-ratio: 1;
+    border-radius: 10px;
+    background: var(--television-remote-container-background);
+
+    transition: var(--television-remote-container-transition);
+    transform: translateY(-15%);
+
+}
+
+/* - - - - - - - - - - - - - */
+
+/* XXX-----XXX-----XXX Styles For .tv-remote-buttons div XXX-----XXX-----XXX */
+
+:is(.introduction, .tv-remote-container) .tv-remote-buttons {
+
+    --tv-remote-buttons-gap: 1rem;
+    --tv-remote-buttons-padding: 3rem;
+    --tv-remote-buttons-transition: all 1.5s ease-in-out;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: var(--tv-remote-buttons-gap);
+    padding: var(--tv-remote-buttons-padding);
+
+    transition: var(--tv-remote-buttons-transition);
+
+}
+
+:is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button {
+
+    --tv-remote-button-width: 5.5rem;
+    --tv-remote-button-transition: all 1.5s ease-in-out;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--tv-remote-button-width);
+    aspect-ratio: 1;
+    background: transparent;
+    outline: 0;
+    border: 0;
+
+    transition: var(--tv-remote-button-transition);
+
+}
+
+:is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button i {
+
+    --television-remote-button-icon-padding: 1rem;
+    --television-remote-button-icon-font-size: 2rem;
+    --television-remote-button-icon-color: #ffffff;
+    --television-remote-button-icon-text-shadow: -1px -1px 1px #efede3,
+        0px 1px 0px rgba(0, 0, 0, 0.480),
+        0px 2px 0px rgba(0, 0, 0, 0.480),
+        0px 3px 0px rgba(0, 0, 0, 0.480),
+        0px 4px 0px rgba(0, 0, 0, 0.480),
+        0px 5px 0px rgba(0, 0, 0, 0.480),
+        0px 6px 0px rgba(0, 0, 0, 0.480),
+        0px 7px 0px rgba(0, 0, 0, 0.480);
+    --television-remote-button-icon-box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.300);
+    --television-remote-button-icon-transition: all 1.5s ease-in-out;
+    --television-remote-power-button-icon-active-background-color: rgb(0, 247, 0);
+    --television-remote-other-button-icon-active-background-color: rgb(224, 122, 5);
+    --television-remote-power-button-icon-not-active-background-color: red;
+    --television-remote-television-leg-collapse-icon-active-background-color: #53008f;
+    --television-remote-other-button-icon-not-active-background-color: #111111de;
+    --television-remote-power-other-button-icon-active-not-active-transition: all 1.5s ease-in-out;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--television-remote-button-icon-padding);
+
+    font-size: var(--television-remote-button-icon-font-size);
+    color: var(--television-remote-button-icon-color);
+    border-radius: 50%;
+    text-shadow: var(--television-remote-button-icon-text-shadow);
+
+    transition: var(--television-remote-button-icon-transition);
+    cursor: pointer;
+
+}
+
+:is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button i.bi-phone,
+:is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button i.bi-chevron-double-up {
+    display: none;
+}
+
+/* XXX-----XXX-----XXX Styles For .tv-remote-button i When .active And .not-active XXX-----XXX-----XXX */
+
+:is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button i.active {
+    background: var(--television-remote-other-button-icon-active-background-color);
+    transition: var(--television-remote-power-other-button-icon-active-not-active-transition);
+}
+
+:is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button i.tv-leg-collapse.active {
+    background: var(--television-remote-television-leg-collapse-icon-active-background-color);
+    transition: var(--television-remote-power-other-button-icon-active-not-active-transition);
+}
+
+:is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button i.not-active {
+    background: var(--television-remote-other-button-icon-not-active-background-color);
+    transition: var(--television-remote-power-other-button-icon-active-not-active-transition);
+}
+
+:is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button .bi-power.active,
+:is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button .bi-phone.active {
+    background: var(--television-remote-power-button-icon-active-background-color);
+    transition: var(--television-remote-power-other-button-icon-active-not-active-transition);
+}
+
+:is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button .bi-power.not-active,
+:is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button .bi-phone.not-active {
+    background: var(--television-remote-power-button-icon-not-active-background-color);
+    transition: var(--television-remote-power-other-button-icon-active-not-active-transition);
+}
+
+/* XXX-----XXX-----XXX Styles For .tv-remote-button i When .active And .not-active XXX-----XXX-----XXX */
+
+/* - - - - - - - - - - - - - */
+
+/* XXX-----XXX-----XXX Styles For .switch-theme-button button XXX-----XXX-----XXX */
+
+:is(.introduction, .tv-remote-container, .tv-remote-buttons) .switch-theme-button {
+
+    --television-switch-theme-button-background: #090909;
+    --television-switch-theme-button-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    --television-switch-theme-button-width: 5.5rem;
+    --television-switch-theme-button-height: 3rem;
+
+    position: relative;
+    transform: rotate(90deg);
+
+    background: var(--television-switch-theme-button-background);
+    width: var(--television-switch-theme-button-width);
+    height: var(--television-switch-theme-button-height);
+    clip-path: var(--television-switch-theme-button-clip-path);
+
+    z-index: 1;
+
+}
+
+:is(.introduction, .tv-remote-container, .tv-remote-buttons) .switch-theme-button::before {
+
+    --television-switch-theme-button-before-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    --television-switch-theme-button-before-background-color-1: rgb(0, 38, 255);
+    --television-switch-theme-button-before-width: 2rem;
+    --television-switch-theme-button-before-border-radius: 0.5rem;
+    --television-switch-theme-button-before-transition: all 1.5s ease-in-out;
+
+    --television-switch-theme-button-switch-theme-before-background-color: rgb(247, 2, 76);
+    --television-switch-theme-button-switch-theme-before-clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    --television-switch-theme-button-switch-theme-before-transition: all 1.5s ease-in-out;
+
+    content: '';
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%) translateX(0);
+
+    background: var(--television-switch-theme-button-before-background-color-1);
+    clip-path: var(--television-switch-theme-button-before-clip-path);
+    width: var(--television-switch-theme-button-before-width);
+    aspect-ratio: 1;
+    border-radius: 0.5rem;
+
+    transition: var(--television-switch-theme-button-before-transition);
+
+}
+
+/* XXX-----XXX-----XXX Styles For .switch-theme-button When .switch-theme XXX-----XXX-----XXX */
+
+:is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button.switch-theme::before {
+    background: var(--television-switch-theme-button-switch-theme-before-background-color);
+    transform: translateY(-50%) translateX(4rem);
+    clip-path: var(--television-switch-theme-button-switch-theme-before-clip-path);
+    transition: var(--television-switch-theme-button-switch-theme-before-transition);
+}
+
+/* XXX-----XXX-----XXX Styles For .switch-theme-button When .switch-theme XXX-----XXX-----XXX */
+
+/* - - - - - - - - - - - - - */
+
+/* XXX-----XXX-----XXX Styles For .switch-theme-button button XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For .tv-remote-buttons div XXX-----XXX-----XXX */
+
+/* - - - - - - - - - - - - - */
+
+/* - - - - - - - - - - - - - */
+
+/* XXX-----XXX-----XXX Styles For .remote-indicator div XXX-----XXX-----XXX */
+
+:is(.introduction, .tv-remote-container) .remote-indicator {
+
+    --television-remote-indicator-width: 7px;
+    --television-remote-indicator-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
+    --television-remote-indicator-transition: all 1.5s ease-in-out;
+
+    --television-remote-indicator-off-background-color: red;
+    --television-remote-indicator-on-background-color: rgb(0, 247, 0);
+    --television-remote-indicator-on-off-transition: all 1.5s ease-in-out;
+
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: var(--television-remote-indicator-width);
+    aspect-ratio: 1;
+    border-radius: 50%;
+    box-shadow: var(--television-remote-indicator-box-shadow);
+
+    transition: var(--television-remote-indicator-transition);
+
+}
+
+:is(.introduction, .tv-remote-container) .remote-indicator.on,
+:is(.introduction, .tv-remote-container) .remote-indicator.off {
+    transition: var(--television-remote-indicator-on-off-transition);
+}
+
+:is(.introduction, .tv-remote-container) .remote-indicator.on {
+    background-color: var(--television-remote-indicator-on-background-color);
+}
+
+:is(.introduction, .tv-remote-container) .remote-indicator.off {
+    background-color: var(--television-remote-indicator-off-background-color);
+}
+
+/* XXX-----XXX-----XXX Styles For .remote-indicator div XXX-----XXX-----XXX */
+
+/* - - - - - - - - - - - - - */
+
+/* XXX-----XXX-----XXX Styles For .tv-remote-container div And It's Children's XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For .introduction div XXX-----XXX-----XXX */
+
+
+/* ---X-X-X-X-X--- MEDIA_QUERIES ---X-X-X-X-X--- */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 1309px || 81.813rem XXX-----XXX-----XXX */
+
+@media screen and (width <=81.813rem) {
+
+    :is(.home-content) .animated-balls-container {
+        --animated-balls-gap: 4rem;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: auto;
+    }
+
+    :is(.home-content, .animated-balls-container) .animated-ball-1::after,
+    :is(.home-content, .animated-balls-container) .animated-ball-2::after,
+    :is(.home-content, .animated-balls-container) .animated-ball-3::after,
+    :is(.home-content, .animated-balls-container) .animated-ball-4::after,
+    :is(.home-content, .animated-balls-container) .animated-ball-5::after,
+    :is(.home-content, .animated-balls-container) .animated-ball-6::after,
+    :is(.home-content, .animated-balls-container) .animated-ball-7::after,
+    :is(.home-content, .animated-balls-container) .animated-ball-8::after,
+    :is(.home-content, .animated-balls-container) .animated-ball-9::after,
+    :is(.home-content, .animated-balls-container) .animated-ball-10::after,
+    :is(.home-content, .animated-balls-container) .animated-ball-11::after,
+    :is(.home-content, .animated-balls-container) .animated-ball-12::after,
+    :is(.home-content, .animated-balls-container) .animated-ball-13::after,
+    :is(.home-content, .animated-balls-container) .animated-ball-14::after,
+    :is(.home-content, .animated-balls-container) .animated-ball-15::after,
+    :is(.home-content, .animated-balls-container) .animated-ball-16::after,
+    :is(.home-content, .animated-balls-container) .animated-ball-17::after {
+        transform: translateX(-50%) translateY(3.5rem);
+    }
+
+    :is(.home-content) .hello-world {
+        --hello-world-gap: 5rem;
+    }
+
+    :is(.home-content, .hello-world) .letter-1,
+    :is(.home-content, .hello-world) .letter-2,
+    :is(.home-content, .hello-world) .letter-3,
+    :is(.home-content, .hello-world) .letter-4,
+    :is(.home-content, .hello-world) .letter-5,
+    :is(.home-content, .hello-world) .letter-6,
+    :is(.home-content, .hello-world) .letter-7,
+    :is(.home-content, .hello-world) .letter-8,
+    :is(.home-content, .hello-world) .letter-9,
+    :is(.home-content, .hello-world) .letter-10,
+    :is(.home-content, .hello-world) .letter-11 {
+        --hello-world-text-font-size: 1.9rem;
+    }
+
+    :is(.home-content) .introduction {
+        --intro-gap: 2.5rem;
+        transform: translateY(-2rem);
+    }
+
+    :is(.introduction) .tv-remote-container {
+        --television-remote-container-width: 11rem;
+        transform: translateY(-2.7rem);
+        height: 26rem;
+    }
+
+    :is(.introduction, .tv-remote-container) .tv-remote-buttons {
+        --tv-remote-buttons-gap: 1.1rem;
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button {
+        --tv-remote-button-width: 4.5rem;
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .switch-theme-button {
+        --television-switch-theme-button-width: 4.5rem;
+        --television-switch-theme-button-height: 2.5rem;
+        transform: rotate(0deg);
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button i {
+        --television-remote-button-icon-padding: 0.9rem;
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .switch-theme-button::before {
+        --television-switch-theme-button-before-width: 1.8rem;
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button.switch-theme::before {
+        transform: translateY(-50%) translateX(3.5rem);
+    }
+
+    :is(.introduction, .tv-remote-container) .remote-indicator {
+        top: 4%;
+    }
+
+    /* :is(.introduction, .tv-container, .television) .my-picture::before,
+    :is(.introduction, .tv-container, .television) .my-picture::after {
+        --my-picture-before-after-width: 19rem;
+        opacity: 0;
+    }
+
+    :is(.introduction, .tv-container, .television) .about.appear {
+        --about-before-after-width: 3rem;
+        opacity: 0;
+    } */
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 1309px || 81.813rem XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 1208px || 75.5rem XXX-----XXX-----XXX */
+
+@media screen and (width <=75.5rem) {
+
+    :is(.home-content) .hello-world {
+        --hello-world-gap: 4.5rem;
+    }
+
+    :is(.home-content, .hello-world) .letter-1,
+    :is(.home-content, .hello-world) .letter-2,
+    :is(.home-content, .hello-world) .letter-3,
+    :is(.home-content, .hello-world) .letter-4,
+    :is(.home-content, .hello-world) .letter-5,
+    :is(.home-content, .hello-world) .letter-6,
+    :is(.home-content, .hello-world) .letter-7,
+    :is(.home-content, .hello-world) .letter-8,
+    :is(.home-content, .hello-world) .letter-9,
+    :is(.home-content, .hello-world) .letter-10,
+    :is(.home-content, .hello-world) .letter-11 {
+        --hello-world-text-font-size: 1.7rem;
+    }
+
+    :is(.introduction) .tv-remote-container {
+        --television-remote-container-width: 10rem;
+        height: 25rem;
+    }
+
+    :is(.introduction, .tv-remote-container) .tv-remote-buttons {
+        --tv-remote-buttons-gap: 1.4rem;
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button i {
+        --television-remote-button-icon-padding: 0.8rem;
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button.switch-theme::before {
+        transform: translateY(-50%) translateX(3rem);
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 1208px || 75.5rem XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 1150px || 71.875rem XXX-----XXX-----XXX */
+
+@media screen and (width <=71.875rem) {
+
+    :is(.home-content) .introduction {
+        --intro-gap: 2rem;
+    }
+
+    :is(.introduction) .tv-remote-container {
+        --television-remote-container-width: 7.5rem;
+        --television-remote-container-background: linear-gradient(0deg, rgb(20, 20, 20) 1.25em, transparent 1.25em),
+            linear-gradient(90deg, rgb(20, 20, 20) 1.25em, transparent 1.25em),
+            linear-gradient(180deg, rgb(20, 20, 20) 1.25em, transparent 1.25em),
+            linear-gradient(270deg, rgb(20, 20, 20) 1.25em, transparent 1.25em);
+        height: 24rem;
+    }
+
+    :is(.introduction, .tv-remote-container) .tv-remote-buttons {
+        --tv-remote-buttons-gap: 1.4rem;
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button i {
+        --television-remote-button-icon-padding: 0.7rem;
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .switch-theme-button {
+        --television-switch-theme-button-height: 3.5rem;
+        transform: rotate(90deg);
+        --television-switch-theme-button-clip-path:
+            polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+        -webkit-clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .switch-theme-button::before {
+        --television-switch-theme-button-before-width: 1.6rem;
+        -webkit-clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+        clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+        transform: translate(-50%, -50%) rotate(90deg);
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button.switch-theme::before {
+        transform: translateY(-45%) translateX(2.7rem) rotate(-90deg);
+        -webkit-clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+        clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    }
+
+    :is(.introduction, .tv-remote-container) .remote-indicator {
+        top: 2.7%;
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 1150px || 71.875rem XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 1100px || 68.75rem XXX-----XXX-----XXX */
+
+@media screen and (width <=68.75rem) {
+
+    :is(.home-content) .introduction {
+        --intro-gap: 1.8rem;
+    }
+
+    :is(.introduction) .tv-remote-container {
+        --television-remote-container-width: 6.5rem;
+        --television-remote-container-background: linear-gradient(0deg, rgb(20, 20, 20) 1.15em, transparent 1.15em),
+            linear-gradient(90deg, rgb(20, 20, 20) 1.15em, transparent 1.15em),
+            linear-gradient(180deg, rgb(20, 20, 20) 1.15em, transparent 1.15em),
+            linear-gradient(270deg, rgb(20, 20, 20) 1.15em, transparent 1.15em);
+        height: 23rem;
+    }
+
+    :is(.introduction, .tv-remote-container) .tv-remote-buttons {
+        --tv-remote-buttons-gap: 1.5rem;
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button i {
+        --television-remote-button-icon-padding: 0.5rem;
+        border-radius: 10px;
+    }
+
+    :is(.introduction, .tv-remote-container) .remote-indicator {
+        top: 2.5%;
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 1100px || 68.75rem XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 1066px || 66.625rem XXX-----XXX-----XXX */
+
+@media screen and (width <=66.625rem) {
+
+    :is(.home-content) .hello-world {
+        --hello-world-gap: 4.2rem;
+    }
+
+    :is(.home-content, .hello-world) .letter-1,
+    :is(.home-content, .hello-world) .letter-2,
+    :is(.home-content, .hello-world) .letter-3,
+    :is(.home-content, .hello-world) .letter-4,
+    :is(.home-content, .hello-world) .letter-5,
+    :is(.home-content, .hello-world) .letter-6,
+    :is(.home-content, .hello-world) .letter-7,
+    :is(.home-content, .hello-world) .letter-8,
+    :is(.home-content, .hello-world) .letter-9,
+    :is(.home-content, .hello-world) .letter-10,
+    :is(.home-content, .hello-world) .letter-11 {
+        --hello-world-text-font-size: 1.5rem;
+    }
+
+    :is(.home-content) .introduction {
+        --intro-gap: 4rem;
+        flex-direction: column;
+    }
+
+    :is(.introduction) .tv-remote-container {
+        --television-remote-container-width: 32rem;
+        --television-remote-container-background: linear-gradient(0deg, rgb(20, 20, 20) 2em, transparent 2em),
+            linear-gradient(90deg, rgb(20, 20, 20) 2em, transparent 2em),
+            linear-gradient(180deg, rgb(20, 20, 20) 2em, transparent 2em),
+            linear-gradient(270deg, rgb(20, 20, 20) 2em, transparent 2em);
+        height: 12rem;
+    }
+
+    :is(.introduction, .tv-remote-container) .tv-remote-buttons {
+        --tv-remote-buttons-gap: 1rem;
+        --tv-remote-buttons-padding: 3.25rem;
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button {
+        --tv-remote-button-width: 5.5rem;
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button i {
+        --television-remote-button-icon-padding: 1rem;
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .switch-theme-button {
+        --television-switch-theme-button-height: 4rem;
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .switch-theme-button::before {
+        --television-switch-theme-button-before-width: 2rem;
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button.switch-theme::before {
+        transform: translateY(-50%) translateX(3.5rem) rotate(-90deg);
+    }
+
+    :is(.introduction, .tv-remote-container) .remote-indicator {
+        top: 8.5%;
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 1066px || 66.625rem XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 975px || 60.938rem XXX-----XXX-----XXX */
+
+@media screen and (width <=60.938rem) {
+
+    :is(.home-content) .hello-world {
+        --hello-world-gap: 3.8rem;
+    }
+
+    :is(.home-content, .hello-world) .letter-1,
+    :is(.home-content, .hello-world) .letter-2,
+    :is(.home-content, .hello-world) .letter-3,
+    :is(.home-content, .hello-world) .letter-4,
+    :is(.home-content, .hello-world) .letter-5,
+    :is(.home-content, .hello-world) .letter-6,
+    :is(.home-content, .hello-world) .letter-7,
+    :is(.home-content, .hello-world) .letter-8,
+    :is(.home-content, .hello-world) .letter-9,
+    :is(.home-content, .hello-world) .letter-10,
+    :is(.home-content, .hello-world) .letter-11 {
+        --hello-world-text-font-size: 1.3rem;
+    }
+
+    :is(.introduction, .tv-container) .television {
+        --television-width: 53rem;
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 975px || 60.938rem XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 924px || 57.75rem XXX-----XXX-----XXX */
+
+@media screen and (width <=57.75rem) {
+
+    :is(.home-content) .hello-world {
+        --hello-world-gap: 3.4rem;
+    }
+
+    :is(.home-content, .hello-world) .letter-1,
+    :is(.home-content, .hello-world) .letter-2,
+    :is(.home-content, .hello-world) .letter-3,
+    :is(.home-content, .hello-world) .letter-4,
+    :is(.home-content, .hello-world) .letter-5,
+    :is(.home-content, .hello-world) .letter-6,
+    :is(.home-content, .hello-world) .letter-7,
+    :is(.home-content, .hello-world) .letter-8,
+    :is(.home-content, .hello-world) .letter-9,
+    :is(.home-content, .hello-world) .letter-10,
+    :is(.home-content, .hello-world) .letter-11 {
+        --hello-world-text-font-size: 1.1rem;
+    }
+
+    :is(.introduction, .tv-container) .television {
+        --television-width: 51rem;
+    }
+
+    :is(.introduction, .tv-container) .television::after {
+        --television-after-background-color: #000000;
+        background-image: url('../assets/about-thumbnail2.png');
+    }
+
+    :is(.introduction, .tv-container, .television) .my-picture::before,
+    :is(.introduction, .tv-container, .television) .my-picture::after {
+        --my-picture-before-after-width: 19rem;
+    }
+
+    :is(.introduction, .tv-container, .television) .about::before,
+    :is(.introduction, .tv-container, .television) .about::after {
+        --about-before-after-width: 3rem;
+    }
+
+    :is(.introduction, .tv-container, .television, .about) .field-text,
+    :is(.introduction, .tv-container, .television, .about) .name-text {
+        --about-fieldText-nameText-width: 19rem;
+    }
+
+    :is(.introduction, .tv-container, .television, .about) .languages {
+        --languages-with: 19rem;
+        --languages-gap: 1rem;
+    }
+
+    :is(.introduction, .tv-container, .television, .about, .languages) span::after {
+        --languages-span-after-width: 4.2rem;
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 924px || 57.75rem XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 900px || 56.25rem XXX-----XXX-----XXX */
+
+@media screen and (width <=56.25rem) {
+
+    :is(.home-content) .introduction {
+        --intro-gap: 0rem;
+        transform: translateY(-4rem);
+    }
+
+    :is(.introduction, .tv-container) .television {
+        --television-width: 31rem;
+        --television-height: 55rem;
+        transform: translateX(-3rem);
+    }
+
+    :is(.introduction, .tv-container) .television.open {
+        --television-open-background: #000000;
+    }
+
+    :is(.introduction, .tv-container) .television::before {
+        content: '';
+        background: url(../assets/vs-code.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+        border-radius: 2rem;
+        transition: all 1.5s ease-in-out;
+        transition-delay: 0.3s;
+    }
+
+    :is(.introduction, .tv-container) .television.open::before {
+        animation-delay: 0.2s;
+    }
+
+    :is(.introduction, .tv-container) .television::after {
+        background-image: url('../assets/about-thumbnail3.png');
+        z-index: -1;
+    }
+
+    :is(.introduction, .tv-container) .television.open::after {
+        --television-open-after-transition: 0.8s;
+        --television-open-after-transition-delay: 3.4s;
+        filter: blur(2px) contrast(100%);
+    }
+
+    :is(.introduction, .tv-container, .television) .television-front {
+        --television-front-background-image: linear-gradient(0deg, rgb(20, 20, 20) 3.5em, transparent 2.15em),
+            linear-gradient(90deg, rgb(20, 20, 20) 2.15em, transparent 2.15em),
+            linear-gradient(180deg, rgb(20, 20, 20) 2.15em, transparent 2.15em),
+            linear-gradient(270deg, rgb(20, 20, 20) 2.15em, transparent 2.15em);
+        transform: translateZ(2em);
+        border-radius: 2rem;
+    }
+
+    :is(.introduction, .tv-container, .television) .television-topIn,
+    :is(.introduction, .tv-container, .television) .television-topOut {
+        left: 50%;
+        top: 4.5%;
+        transform: translate(-50%, -50%);
+        height: 3rem;
+        width: 7rem;
+        background-image: linear-gradient(0deg, rgb(20, 20, 20) 2.5em, transparent 2.5em),
+            linear-gradient(90deg, rgb(20, 20, 20) 2.5em, transparent 2.5em),
+            linear-gradient(180deg, rgb(20, 20, 20) 2.5em, transparent 2.5em),
+            linear-gradient(270deg, rgb(20, 20, 20) 2.5em, transparent 2.5em);
+        border-radius: 12px;
+    }
+
+    :is(.introduction, .tv-container, .television) .television-bottomOut {
+        left: 50%;
+        bottom: -1.28%;
+        transform: translate(-50%, -50%) translateZ(2em);
+        height: 2.5rem;
+        width: 2.5rem;
+        background: linear-gradient(to bottom right, rgb(4, 89, 247), rgb(57, 4, 247));
+        border-radius: 50%;
+    }
+
+    :is(.introduction, .tv-container, .television) .television-rightOut {
+        background-image: linear-gradient(0deg, rgb(20, 20, 20) 2em, transparent 2em),
+            linear-gradient(90deg, rgb(20, 20, 20) 2em, transparent 2em),
+            linear-gradient(180deg, rgb(20, 20, 20) 2em, transparent 2em),
+            linear-gradient(270deg, rgb(20, 20, 20) 2em, transparent 2em);
+        position: absolute;
+        top: 20%;
+        right: -26%;
+        transform: translateY(7rem);
+        height: 20rem;
+        width: 10rem;
+        border-radius: 2rem;
+        transition: all 1.5s ease-in-out;
+        transition-delay: 0.2s;
+    }
+
+    :is(.introduction, .tv-container, .television) .television-rightIn {
+        background-image: linear-gradient(0deg, rgb(4, 69, 247) 2em, transparent 2em),
+            linear-gradient(90deg, rgb(4, 69, 247) 0em, transparent 0em),
+            linear-gradient(180deg, rgb(4, 69, 247) 2em, transparent 2em),
+            linear-gradient(270deg, rgb(4, 69, 247) 2em, transparent 2em);
+        position: absolute;
+        top: 20%;
+        left: 95%;
+        transform: translateY(7rem);
+        width: 10rem;
+        height: 20rem;
+        border-radius: 2rem;
+        transition: all 1.5s ease-in-out;
+    }
+
+    :is(.introduction, .tv-container, .television) .television-bottomIn,
+    :is(.introduction, .tv-container, .television) .television-leftIn,
+    :is(.introduction, .tv-container, .television) .television-leftOut {
+        display: none;
+    }
+
+    :is(.introduction, .tv-container) .television-indicator {
+        --television-indicator-width: 5rem;
+        top: 5%;
+        left: 40.22%;
+        height: 0.5rem;
+        border-radius: 1rem;
+    }
+
+    :is(.introduction, .tv-container) .television-leg,
+    :is(.introduction, .tv-container) .television-step {
+        display: none;
+    }
+
+    :is(.introduction, .tv-container, .television) .play-btn {
+        display: none;
+    }
+
+    :is(.introduction, .tv-container, .television) .swipe-up-btn {
+        top: 80%;
+        display: block;
+        animation: animateSwipeUpBtn 7s linear infinite;
+    }
+
+    :is(.introduction, .tv-container, .television) .swipe-up-btn.appear {
+        --television-playBtn-appear-transition: 0.8s;
+        --television-playBtn-appear-transition-delay: 3.4s;
+    }
+
+    @keyframes animateSwipeUpBtn {
+
+        0%,
+        100% {
+            transform: translate(-50%, -50%) translateY(0);
+        }
+
+        50% {
+            transform: translate(-50%, -50%) translateY(-1rem);
+        }
+    }
+
+    :is(.introduction, .tv-container, .television) .swipe-up-btn::after {
+        content: 'Click arrow to unlock';
+        position: absolute;
+        top: 6.5rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        white-space: nowrap;
+    }
+
+    :is(.introduction, .tv-container, .television) .my-picture::before,
+    :is(.introduction, .tv-container, .television) .my-picture::after {
+        --my-picture-before-after-width: 20rem;
+        top: 29%;
+        left: 50%;
+    }
+
+    :is(.introduction, .tv-container, .television) .about {
+        top: 68%;
+        left: 50%;
+        transform: translateY(-50%);
+    }
+
+    :is(.introduction, .tv-container, .television.open) .about.appear {
+        --about-appear-background: transparent;
+    }
+
+    :is(.introduction, .tv-container, .television) .about::before,
+    :is(.introduction, .tv-container, .television) .about::after {
+        --about-before-after-text-shadow: 0rem 0rem 0rem #efede3bb,
+            0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.900),
+            0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.900),
+            0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.900),
+            0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.900),
+            0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.900),
+            0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.900);
+        --about-before-after-width: 4.50rem;
+        --about-before-after-font-size: 1.5rem;
+        left: 0;
+        border-radius: 50%;
+        font-weight: 800;
+        box-shadow: none;
+        opacity: 0;
+    }
+
+    :is(.introduction, .tv-container, .television) .about::before {
+        top: 17rem;
+        margin-left: -2.80rem;
+    }
+
+    :is(.introduction, .tv-container, .television) .about::after {
+        top: 17rem;
+        margin-left: 2.80rem;
+    }
+
+    :is(.introduction, .tv-container, .television, .about) .field-text,
+    :is(.introduction, .tv-container, .television, .about) .name-text {
+        --about-fieldText-nameText-width: 22rem;
+        --about-fieldText-nameText-margin: 0rem;
+        --about-fieldText-nameText-padding: 0.7rem;
+        transform: translate(-50%, -50%);
+    }
+
+    :is(.introduction, .tv-container, .television, .about) .languages {
+        --languages-with: 24rem;
+        --languages-margin: 0rem;
+        --languages-gap: 1rem;
+        transform: translate(-50%, -50%);
+        margin-top: 1.25rem;
+    }
+
+    :is(.introduction, .tv-container, .television, .about, .languages) span::after {
+        --languages-span-after-width: 4.8rem;
+        --languages-span-after-height: 5.5rem;
+    }
+
+    :is(.introduction, .tv-container, .television, .about, .languages, span) img {
+        --languages-span-image-width: 4.8rem;
+        --languages-span-image-height: 5.5rem;
+    }
+
+    :is(.introduction) .tv-remote-container {
+        --television-remote-container-width: 31rem;
+        --television-remote-container-background: linear-gradient(0deg, rgb(20, 20, 20) 2em, transparent 2em),
+            linear-gradient(90deg, rgb(20, 20, 20) 2em, transparent 2em),
+            linear-gradient(180deg, rgb(20, 20, 20) 2em, transparent 2em),
+            linear-gradient(270deg, rgb(20, 20, 20) 2em, transparent 2em);
+        transform: translateY(-13rem) translateX(-3rem);
+        height: 12rem;
+        border-radius: 2rem;
+        transition-delay: 0.2s;
+        overflow: hidden;
+        z-index: -1;
+    }
+
+    :is(.introduction) .tv-remote-container.expand {
+        transform: translateY(-2rem) translateX(-3rem);
+        transition-delay: 0.1s;
+    }
+
+    :is(.introduction, .tv-remote-container) .tv-remote-buttons {
+        --tv-remote-buttons-gap: 3rem;
+        --tv-remote-buttons-padding: 4.25rem;
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button {
+        --tv-remote-button-width: 4rem;
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button:nth-child(4) {
+        display: none;
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button i {
+        --television-remote-button-icon-padding: 1rem;
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button i.bi-phone,
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button i.bi-chevron-double-up {
+        display: flex;
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button i.bi-power,
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button i.bi-play-fill {
+        display: none;
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .switch-theme-button {
+        --television-switch-theme-button-height: 4rem;
+        clip-path: polygon(0% 50%, 20% 0%, 80% 0%, 100% 50%, 80% 100%, 20% 100%);
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .switch-theme-button::before {
+        --television-switch-theme-button-before-width: 2rem;
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        transform: translate(-50%, -50%) rotate(90deg);
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button.switch-theme::before {
+        transform: translateY(-50%) translateX(3rem) rotate(-90deg);
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    }
+
+    :is(.introduction, .tv-remote-container) .remote-indicator {
+        top: 96%;
+        left: 0%;
+        transform: translateY(0rem);
+        width: 100%;
+        height: 0.5rem;
+        border-radius: 2rem;
+    }
+
+    :is(.introduction, .tv-container, .television.open) .my-picture.appear,
+    :is(.introduction, .tv-container, .television.open) .about.appear::before,
+    :is(.introduction, .tv-container, .television.open) .about.appear::after,
+    :is(.introduction, .tv-container, .television.open, .about) .field-text.appear,
+    :is(.introduction, .tv-container, .television.open, .about) .name-text.appear,
+    :is(.introduction, .tv-container, .television.open, .about, .languages) span.appear:nth-child(1)::after,
+    :is(.introduction, .tv-container, .television.open, .about, .languages) span.appear:nth-child(2)::after,
+    :is(.introduction, .tv-container, .television.open, .about, .languages) span.appear:nth-child(3)::after,
+    :is(.introduction, .tv-container, .television.open, .about, .languages) span.appear:nth-child(4)::after,
+    :is(.introduction, .tv-container, .television.open, .about, .languages) span.appear img.appear {
+        opacity: 1;
+        visibility: visible;
+        transition: opacity 1.5s ease-in-out,
+            visibility 1.5s ease-in-out;
+        transition-delay: 1.55s;
+    }
+
+    :is(.introduction, .tv-container, .television.open) .my-picture.disappear,
+    :is(.introduction, .tv-container, .television.open) .about.disappear::before,
+    :is(.introduction, .tv-container, .television.open) .about.disappear::after,
+    :is(.introduction, .tv-container, .television.open, .about) .field-text.disappear,
+    :is(.introduction, .tv-container, .television.open, .about) .name-text.disappear,
+    :is(.introduction, .tv-container, .television.open, .about, .languages) span.disappear:nth-child(1)::after,
+    :is(.introduction, .tv-container, .television.open, .about, .languages) span.disappear:nth-child(2)::after,
+    :is(.introduction, .tv-container, .television.open, .about, .languages) span.disappear:nth-child(3)::after,
+    :is(.introduction, .tv-container, .television.open, .about, .languages) span.disappear:nth-child(4)::after {
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.5s ease-in-out,
+            visibility 0.5s ease-in-out;
+        transition-delay: 0.3s;
+    }
+
+    :is(.introduction, .tv-container, .television.open, .about, .languages) span.disappear img.disappear {
+        transition: 0.1s;
+        transition-delay: 0.1;
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 900px || 56.25rem XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 782px || 48.875rem XXX-----XXX-----XXX */
+
+@media screen and (width <=48.875rem) {
+
+    :is(.home-content) .hello-world {
+        --hello-world-gap: 3rem;
+    }
+
+    :is(.home-content, .hello-world) .letter-1,
+    :is(.home-content, .hello-world) .letter-2,
+    :is(.home-content, .hello-world) .letter-3,
+    :is(.home-content, .hello-world) .letter-4,
+    :is(.home-content, .hello-world) .letter-5,
+    :is(.home-content, .hello-world) .letter-6,
+    :is(.home-content, .hello-world) .letter-7,
+    :is(.home-content, .hello-world) .letter-8,
+    :is(.home-content, .hello-world) .letter-9,
+    :is(.home-content, .hello-world) .letter-10,
+    :is(.home-content, .hello-world) .letter-11 {
+        --hello-world-text-font-size: 0.9rem;
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 782px || 48.875rem XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 767px || 47.938rem XXX-----XXX-----XXX */
+
+@media screen and (width <=47.938rem) {
+
+    :is(.home-content) .hello-world {
+
+        --hello-world-gap: 2.7rem;
+        --hello-world-margin: 9rem;
+    }
+
+    :is(.home-content, .hello-world) .letter-1,
+    :is(.home-content, .hello-world) .letter-2,
+    :is(.home-content, .hello-world) .letter-3,
+    :is(.home-content, .hello-world) .letter-4,
+    :is(.home-content, .hello-world) .letter-5,
+    :is(.home-content, .hello-world) .letter-6,
+    :is(.home-content, .hello-world) .letter-7,
+    :is(.home-content, .hello-world) .letter-8,
+    :is(.home-content, .hello-world) .letter-9,
+    :is(.home-content, .hello-world) .letter-10,
+    :is(.home-content, .hello-world) .letter-11 {
+        --hello-world-text-font-size: 1rem;
+        transform: matrix(4, 0, 0, 4, 0, 0);
+    }
+
+    :is(.introduction, .tv-container) .television {
+        transform: translateX(0rem);
+    }
+
+    :is(.introduction, .tv-container) .television-indicator {
+        left: 50%;
+    }
+
+    :is(.introduction, .tv-container, .television) .television-rightOut,
+    :is(.introduction, .tv-container, .television) .television-rightIn {
+        display: none;
+    }
+
+    :is(.introduction) .tv-remote-container {
+        transform: translateY(-13rem) translateX(0rem);
+    }
+
+    :is(.introduction) .tv-remote-container.expand {
+        transform: translateY(-2rem) translateX(0rem);
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 767px || 47.938rem XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 639px || 39.938rem XXX-----XXX-----XXX */
+
+@media screen and (width <=39.938rem) {
+
+    :is(.home-content) .hello-world {
+        --hello-world-gap: 2.1rem;
+    }
+
+    :is(.home-content, .hello-world) .letter-1,
+    :is(.home-content, .hello-world) .letter-2,
+    :is(.home-content, .hello-world) .letter-3,
+    :is(.home-content, .hello-world) .letter-4,
+    :is(.home-content, .hello-world) .letter-5,
+    :is(.home-content, .hello-world) .letter-6,
+    :is(.home-content, .hello-world) .letter-7,
+    :is(.home-content, .hello-world) .letter-8,
+    :is(.home-content, .hello-world) .letter-9,
+    :is(.home-content, .hello-world) .letter-10,
+    :is(.home-content, .hello-world) .letter-11 {
+        --hello-world-text-font-size: 0.8rem;
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 639px || 39.938rem XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 600px || 37.5rem XXX-----XXX-----XXX */
+
+@media screen and (width <=37.5rem) {
+
+    :is(.introduction, .tv-container) .television {
+        --television-width: 28rem;
+    }
+
+    :is(.introduction) .tv-remote-container {
+        --television-remote-container-width: 28rem;
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 600px || 37.5rem XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 497px || 31.063rem XXX-----XXX-----XXX */
+
+@media screen and (width <=31.063rem) {
+
+    :is(.home-content) .hello-world {
+        --hello-world-gap: 1.6rem;
+    }
+
+    :is(.home-content, .hello-world) .letter-1,
+    :is(.home-content, .hello-world) .letter-2,
+    :is(.home-content, .hello-world) .letter-3,
+    :is(.home-content, .hello-world) .letter-4,
+    :is(.home-content, .hello-world) .letter-5,
+    :is(.home-content, .hello-world) .letter-6,
+    :is(.home-content, .hello-world) .letter-7,
+    :is(.home-content, .hello-world) .letter-8,
+    :is(.home-content, .hello-world) .letter-9,
+    :is(.home-content, .hello-world) .letter-10,
+    :is(.home-content, .hello-world) .letter-11 {
+        --hello-world-text-font-size: 0.6rem;
+    }
+
+    :is(.introduction, .tv-container) .television {
+        --television-width: 25rem;
+    }
+
+    :is(.introduction, .tv-container) .television::before {
+        background-image: url(../assets/vs-code-1.png);
+    }
+
+    :is(.introduction, .tv-container) .television::after {
+        background-image: url(../assets//about-thumbnail4.png);
+        height: 65%;
+        margin-top: 5rem;
+    }
+
+    :is(.introduction, .tv-container, .television) .my-picture::before,
+    :is(.introduction, .tv-container, .television) .my-picture::after {
+        --my-picture-before-after-width: 18rem;
+        top: 26%;
+    }
+
+    :is(.introduction, .tv-container, .television) .about::before,
+    :is(.introduction, .tv-container, .television) .about::after {
+        --about-before-after-width: 4rem;
+    }
+
+    :is(.introduction, .tv-container, .television) .about::before {
+        top: 18.25rem;
+    }
+
+    :is(.introduction, .tv-container, .television) .about::after {
+        top: 18.25rem;
+    }
+
+    :is(.introduction, .tv-container, .television, .about) .field-text,
+    :is(.introduction, .tv-container, .television, .about) .name-text {
+        --about-fieldText-nameText-width: 19rem;
+        margin-top: 2rem;
+        margin-bottom: -2.25rem;
+    }
+
+    :is(.introduction, .tv-container, .television, .about) .languages {
+        --languages-with: 18rem;
+        --languages-gap: 1.5rem;
+        margin-top: 6.75rem;
+    }
+
+    :is(.introduction, .tv-container, .television, .about, .languages) span::after {
+        --languages-span-after-width: 5.4rem;
+    }
+
+    :is(.introduction, .tv-container, .television, .about, .languages, span) img {
+        --languages-span-image-width: 5.4rem;
+    }
+
+    :is(.introduction) .tv-remote-container {
+        --television-remote-container-width: 25rem;
+    }
+
+    :is(.introduction, .tv-remote-container) .tv-remote-buttons {
+        --tv-remote-buttons-gap: 2rem;
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 497px || 31.063rem XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 435px || 27.188rem XXX-----XXX-----XXX */
+
+@media screen and (width <=27.188rem) {
+
+    :is(.introduction, .tv-container) .television {
+        --television-width: 22rem;
+    }
+
+    :is(.introduction, .tv-container) .television::before {
+        background-image: url(../assets/vs-code-2.png);
+    }
+
+    :is(.introduction, .tv-container, .television) .my-picture::before,
+    :is(.introduction, .tv-container, .television) .my-picture::after {
+        --my-picture-before-after-width: 16rem;
+    }
+
+    :is(.introduction, .tv-container, .television, .about) .field-text,
+    :is(.introduction, .tv-container, .television, .about) .name-text {
+        --about-fieldText-nameText-width: 16rem;
+        --about-fieldText-nameText-font-size: 1.2rem;
+    }
+
+    :is(.introduction) .tv-remote-container {
+        --television-remote-container-width: 22rem;
+    }
+
+    :is(.introduction, .tv-remote-container) .tv-remote-buttons {
+        --tv-remote-buttons-gap: 0.5rem;
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button.switch-theme::before {
+        transform: translateY(-50%) translateX(3.5rem) rotate(-90deg);
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 435px || 27.188rem XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 390px || 24.375rem XXX-----XXX-----XXX */
+
+@media screen and (width <=24.375rem) {
+
+    :is(.introduction, .tv-container) .television {
+        --television-width: 19rem;
+    }
+
+    :is(.introduction, .tv-container) .television::before {
+        background-image: url(../assets/vs-code-3.png);
+    }
+
+    :is(.introduction, .tv-container) .television::after {
+        background-image: url(../assets//about-thumbnail5.png);
+        height: 65%;
+        margin-top: 5rem;
+    }
+
+    :is(.introduction, .tv-container, .television) .swipe-up-btn::after {
+        font-size: 1.3rem;
+    }
+
+    :is(.introduction, .tv-container, .television) .my-picture::before,
+    :is(.introduction, .tv-container, .television) .my-picture::after {
+        --my-picture-before-after-width: 13rem;
+        top: 23%;
+    }
+
+    :is(.introduction, .tv-container, .television) .about::before {
+        top: 17.25rem;
+    }
+
+    :is(.introduction, .tv-container, .television) .about::after {
+        top: 17.25rem;
+    }
+
+    :is(.introduction, .tv-container, .television, .about) .field-text,
+    :is(.introduction, .tv-container, .television, .about) .name-text {
+        --about-fieldText-nameText-width: 13rem;
+        --about-fieldText-nameText-font-size: 0.9rem;
+        --about-fieldText-nameText-text-shadow: none;
+        letter-spacing: 0.1rem;
+        font-weight: 600;
+        margin-top: -3rem;
+        margin-bottom: 3.25rem;
+    }
+
+    :is(.introduction, .tv-container, .television, .about) .name-text::before,
+    :is(.introduction, .tv-container, .television, .about) .name-text::after {
+        --about-nameText-before-after-width: 100%;
+        transform: none;
+        top: 100%;
+        height: 0.11rem;
+        border-radius: 0%;
+    }
+
+    :is(.introduction, .tv-container, .television, .about) .name-text::before {
+        top: 0;
+        left: 0;
+    }
+
+    :is(.introduction, .tv-container, .television, .about) .name-text::after {
+        right: 0;
+    }
+
+    :is(.introduction, .tv-container, .television, .about) .languages {
+        --languages-gap: 1rem;
+        margin-top: 3rem;
+    }
+
+    :is(.introduction) .tv-remote-container {
+        --television-remote-container-width: 19rem;
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button {
+        --tv-remote-button-width: 2.5rem;
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button i {
+        --television-remote-button-icon-padding: 1rem;
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button i.not-active,
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button .bi-phone.not-active {
+        background: transparent;
+        color: rgb(247, 4, 4);
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button i.active,
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button .bi-phone.active {
+        background: transparent;
+        color: rgb(24, 247, 4);
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .switch-theme-button {
+        --television-switch-theme-button-height: 2.5rem;
+        clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+        transform: rotate(360deg);
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .switch-theme-button::before {
+        --television-switch-theme-button-before-width: 2rem;
+        clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+        ;
+    }
+
+    :is(.introduction, .tv-remote-container, .tv-remote-buttons) .tv-remote-button.switch-theme::before {
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        transform: translateY(-50%) translateX(3.5rem) rotate(90deg);
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 390px || 24.375rem XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 355px || 22.188rem XXX-----XXX-----XXX */
+
+@media screen and (width <=22.188rem) {
+
+    :is(.home-content) .hello-world {
+        --hello-world-gap: 1rem;
+        flex-wrap: wrap;
+        width: 75%;
+        margin: 9rem auto;
+    }
+
+    :is(.home-content, .hello-world) .letter-1,
+    :is(.home-content, .hello-world) .letter-2,
+    :is(.home-content, .hello-world) .letter-3,
+    :is(.home-content, .hello-world) .letter-4,
+    :is(.home-content, .hello-world) .letter-5,
+    :is(.home-content, .hello-world) .letter-6,
+    :is(.home-content, .hello-world) .letter-7,
+    :is(.home-content, .hello-world) .letter-8,
+    :is(.home-content, .hello-world) .letter-9,
+    :is(.home-content, .hello-world) .letter-10,
+    :is(.home-content, .hello-world) .letter-11 {
+
+        --hello-world-text-font-size: 2rem;
+        --hello-world-text-text-shadow: none;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: none;
+        margin-bottom: 2rem;
+        font-weight: 700;
+        width: 4rem;
+        aspect-ratio: 1;
+        border-radius: 35%;
+        background: rgb(10, 10, 10);
+        transition: all 1.5s ease-in-out;
+        animation: none;
+
+    }
+
+    :is(.introduction, .tv-container) .television {
+        --television-width: 16rem;
+    }
+
+    :is(.introduction, .tv-container) .television::before {
+        background-image: url(../assets/vs-code-4.png);
+    }
+
+    :is(.introduction, .tv-container) .television::after {
+        background-image: url(../assets//about-thumbnail6.png);
+    }
+
+    :is(.introduction, .tv-container, .television) .swipe-up-btn::after {
+        font-size: 1.1rem;
+    }
+
+    :is(.introduction, .tv-container, .television) .my-picture::before,
+    :is(.introduction, .tv-container, .television) .my-picture::after {
+        --my-picture-before-after-width: 10rem;
+        border-radius: 1rem;
+        top: 21%;
+    }
+
+    :is(.introduction, .tv-container, .television) .about::before {
+        top: 17.25rem;
+        margin-left: -2.50rem;
+    }
+
+    :is(.introduction, .tv-container, .television) .about::after {
+        top: 17.25rem;
+        margin-left: 2.50rem;
+    }
+
+    :is(.introduction, .tv-container, .television, .about) .field-text,
+    :is(.introduction, .tv-container, .television, .about) .name-text {
+        --about-fieldText-nameText-width: 10rem;
+        margin-top: -4rem;
+        margin-bottom: 4rem;
+        letter-spacing: 0.4rem;
+        white-space: wrap;
+    }
+
+    :is(.introduction, .tv-container, .television, .about) .languages {
+        --languages-with: 15rem;
+        --languages-gap: 1.3rem;
+        margin-top: 2rem;
+    }
+
+    :is(.introduction, .tv-container, .television, .about, .languages) span::after {
+        --languages-span-after-width: 4.2rem;
+    }
+
+    :is(.introduction, .tv-container, .television, .about, .languages, span) img {
+        --languages-span-image-width: 4.2rem;
+    }
+
+    :is(.introduction) .tv-remote-container {
+        --television-remote-container-width: 16rem;
+        height: 17rem;
+    }
+
+    :is(.introduction, .tv-remote-container) .tv-remote-buttons {
+        --tv-remote-buttons-gap: 0rem;
+        --tv-remote-buttons-padding: 3rem;
+        flex-direction: column;
+    }
+
+    :is(.introduction) .tv-remote-container {
+        --television-remote-container-width: 16rem;
+        transform: translateY(-17rem);
+        height: 17rem;
+    }
+
+    :is(.introduction) .tv-remote-container.expand {
+        transform: translateY(-2rem);
+        transition-delay: 0.1s;
+    }
+
+    :is(.introduction, .tv-remote-container) .remote-indicator {
+        top: 97%;
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 355px || 22.188rem XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 320px || 20rem XXX-----XXX-----XXX */
+
+@media screen and (width <=20rem) {
+
+    :is(.home-content) .hello-world {
+        width: 65%;
+    }
+
+    :is(.introduction, .tv-container) .television {
+        --television-width: 13rem;
+    }
+
+    :is(.introduction, .tv-container) .television::before {
+        background-image: url(../assets/welcome-text.png);
+    }
+
+    :is(.introduction, .tv-container) .television::after {
+        background-image: url(../assets//about-thumbnail7.png);
+    }
+
+    :is(.introduction, .tv-container, .television) .television-front {
+        --television-front-background-image: linear-gradient(0deg, rgb(20, 20, 20) 3.5em, transparent 1.15em),
+            linear-gradient(90deg, rgb(20, 20, 20) 1.15em, transparent 1.15em),
+            linear-gradient(180deg, rgb(20, 20, 20) 1.15em, transparent 1.15em),
+            linear-gradient(270deg, rgb(20, 20, 20) 1.15em, transparent 1.15em);
+    }
+
+    :is(.introduction, .tv-container, .television) .television-topIn,
+    :is(.introduction, .tv-container, .television) .television-topOut {
+        top: 3%;
+        height: 2.5rem;
+    }
+
+    :is(.introduction, .tv-container, .television) .television-bottomOut {
+        border-radius: 0.5rem;
+    }
+
+    :is(.introduction, .tv-container, .television) .television-indicator {
+        top: 3%;
+    }
+
+    :is(.introduction, .tv-container, .television) .swipe-up-btn::after {
+        font-size: 1rem;
+    }
+
+    :is(.introduction, .tv-container, .television) .my-picture::before,
+    :is(.introduction, .tv-container, .television) .my-picture::after {
+        --my-picture-before-after-width: 10rem;
+    }
+
+    :is(.introduction, .tv-container, .television, .about) .field-text,
+    :is(.introduction, .tv-container, .television, .about) .name-text {
+        --about-fieldText-nameText-width: 10rem;
+    }
+
+    :is(.introduction, .tv-container, .television, .about) .languages {
+        --languages-with: 14rem;
+        --languages-gap: 1.2rem;
+    }
+
+    :is(.introduction, .tv-container, .television, .about, .languages) span::after {
+        --languages-span-after-width: 4rem;
+        --languages-span-after-font-size: 1rem;
+    }
+
+    :is(.introduction, .tv-container, .television, .about, .languages, span) img {
+        --languages-span-image-width: 4rem;
+    }
+
+    :is(.introduction) .tv-remote-container {
+        --television-remote-container-width: 13rem;
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 320px || 20rem XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 270px || 16.875rem XXX-----XXX-----XXX */
+
+@media screen and (width <=16.875rem) {
+
+    :is(.home-content) .hello-world {
+        width: 75%;
+    }
+
+    :is(.introduction, .tv-container) .television {
+        --television-width: 10rem;
+        --television-height: 61rem;
+    }
+
+    :is(.introduction, .tv-container) .television::before {
+        background-image: url(../assets/welcome-text-1.png);
+    }
+
+    :is(.introduction, .tv-container) .television::after {
+        background-image: url(../assets//about-thumbnail8.png);
+    }
+
+    :is(.introduction, .tv-container, .television) .television-front {
+        --television-front-background-image: linear-gradient(0deg, rgb(20, 20, 20) 3.5em, transparent 1em),
+            linear-gradient(90deg, rgb(20, 20, 20) 1em, transparent 1em),
+            linear-gradient(180deg, rgb(20, 20, 20) 1em, transparent 1em),
+            linear-gradient(270deg, rgb(20, 20, 20) 1em, transparent 1em);
+    }
+
+    :is(.introduction, .tv-container, .television) .television-topIn,
+    :is(.introduction, .tv-container, .television) .television-topOut {
+        top: 2.5%;
+        width: 5rem;
+        height: 2.5rem;
+    }
+
+    :is(.introduction, .tv-container, .television) .television-bottomOut {
+        border-radius: 50%;
+    }
+
+    :is(.introduction, .tv-container) .television-indicator {
+        --television-indicator-width: 3rem;
+        top: 2.5%;
+    }
+
+    :is(.introduction, .tv-container, .television) .swipe-up-btn {
+        --television-playBtn-width: 4.5rem;
+    }
+
+    :is(.introduction, .tv-container, .television) .swipe-up-btn::after {
+        content: 'Click it';
+        font-size: 1.5rem;
+    }
+
+    :is(.introduction, .tv-container, .television) .my-picture::before,
+    :is(.introduction, .tv-container, .television) .my-picture::after {
+        --my-picture-before-after-width: 7rem;
+        top: 15%;
+    }
+
+    :is(.introduction, .tv-container, .television) .about {
+        top: 58%;
+    }
+
+    :is(.introduction, .tv-container, .television) .about::before,
+    :is(.introduction, .tv-container, .television) .about::after {
+        --about-before-after-width: 3rem;
+        --about-before-after-font-size: 1.2rem;
+    }
+
+    :is(.introduction, .tv-container, .television) .about::before {
+        top: 26rem;
+        margin-left: -1.8rem;
+    }
+
+    :is(.introduction, .tv-container, .television) .about::after {
+        top: 26rem;
+        margin-left: 1.8rem;
+    }
+
+    :is(.introduction, .tv-container, .television, .about) .field-text,
+    :is(.introduction, .tv-container, .television, .about) .name-text {
+        --about-fieldText-nameText-width: 7rem;
+        letter-spacing: 0.1rem;
+        margin-top: 9rem;
+        margin-bottom: -9rem;
+    }
+
+    :is(.introduction, .tv-container, .television, .about) .languages {
+        --languages-with: 7.5rem;
+        --languages-gap: 1rem;
+        margin-top: 21rem;
+    }
+
+    :is(.introduction, .tv-container, .television, .about, .languages) span::after {
+        --languages-span-after-width: 5rem;
+        --languages-span-after-font-size: 1.2rem;
+    }
+
+    :is(.introduction, .tv-container, .television, .about, .languages, span) img {
+        --languages-span-image-width: 5rem;
+    }
+
+    :is(.introduction) .tv-remote-container {
+        --television-remote-container-background: linear-gradient(0deg, rgb(20, 20, 20) 1.5em, transparent 1.5em),
+            linear-gradient(90deg, rgb(20, 20, 20) 1.5em, transparent 1.5em),
+            linear-gradient(180deg, rgb(20, 20, 20) 1.5em, transparent 1.5em),
+            linear-gradient(270deg, rgb(20, 20, 20) 1.5em, transparent 1.5em);
+        --television-remote-container-width: 10rem;
+    }
+
+    :is(.introduction, .tv-remote-container) .tv-remote-buttons {
+        --tv-remote-buttons-gap: 0rem;
+        --tv-remote-buttons-padding: 3rem;
+        margin-left: -0.15rem;
+        flex-direction: column;
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 270px || 16.875rem XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 234px || 14.625rem XXX-----XXX-----XXX */
+
+@media screen and (width <=14.625rem) {
+
+    :is(.home-content) .hello-world {
+        width: 85%;
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 234px || 14.625rem XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 213px || 13.313rem XXX-----XXX-----XXX */
+
+@media screen and (width <=13.313rem) {
+
+    :is(.home-content) .hello-world {
+        width: 75%;
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 213px || 13.313rem XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 200px || 12.5rem XXX-----XXX-----XXX */
+
+@media screen and (width <=12.5rem) {
+
+    :is(.introduction, .tv-container) .television {
+        --television-width: 9rem;
+    }
+
+    :is(.introduction, .tv-container) .television::before {
+        background-image: url(../assets/welcome-text-2.png);
+    }
+
+    :is(.introduction, .tv-container, .television) .television-front {
+        --television-front-background-image: linear-gradient(0deg, rgb(20, 20, 20) 3.5em, transparent 0.5em),
+            linear-gradient(90deg, rgb(20, 20, 20) 0.5em, transparent 0.5em),
+            linear-gradient(180deg, rgb(20, 20, 20) 0.5em, transparent 0.5em),
+            linear-gradient(270deg, rgb(20, 20, 20) 0.5em, transparent 0.5em);
+        border-radius: 0.5rem;
+    }
+
+    :is(.introduction, .tv-container, .television) .television-topIn,
+    :is(.introduction, .tv-container, .television) .television-topOut {
+        top: 1.7%;
+        border-radius: 0.5rem;
+    }
+
+    :is(.introduction, .tv-container, .television) .television-bottomOut {
+        border-radius: 0.5rem;
+    }
+
+    :is(.introduction, .tv-container) .television-indicator {
+        top: 1.6%;
+    }
+
+    :is(.introduction) .tv-remote-container {
+        --television-remote-container-background: linear-gradient(0deg, rgb(20, 20, 20) 1em, transparent 1em),
+            linear-gradient(90deg, rgb(20, 20, 20) 1em, transparent 1em),
+            linear-gradient(180deg, rgb(20, 20, 20) 1em, transparent 1em),
+            linear-gradient(270deg, rgb(20, 20, 20) 1em, transparent 1em);
+        --television-remote-container-width: 9rem;
+        border-radius: 0.5rem;
+    }
+
+    :is(.introduction, .tv-remote-container) .tv-remote-buttons {
+        margin-left: -0.7rem;
+    }
+
+    :is(.introduction, .tv-remote-container) .remote-indicator {
+        border-radius: 0.5rem;
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 200px || 12.5rem XXX-----XXX-----XXX */
+
+/* XXX-----XXX-----XXX Styles For Screen Width 150px || 9.375rem XXX-----XXX-----XXX */
+
+@media screen and (width <=9.375rem) {
+
+    :is(.home-content) .hello-world {
+        width: 65%;
+    }
+
+    :is(.introduction, .tv-container, .television) .television-front,
+    :is(.introduction, .tv-container, .television) .television-topIn,
+    :is(.introduction, .tv-container, .television) .television-topOut,
+    :is(.introduction, .tv-container, .television) .television-bottomOut,
+    :is(.introduction, .tv-container) .television-indicator,
+    :is(.introduction) .tv-remote-container,
+    :is(.introduction, .tv-container, .television) .swipe-up-btn {
+        display: none;
+    }
+
+    .disappear {
+        opacity: 0 !important;
+        visibility: hidden !important;
+    }
+
+    .disappear,
+    .disappear::before,
+    .disappear::after {
+        opacity: 1 !important;
+        visibility: visible !important;
+    }
+
+    :is(.introduction, .tv-container, .television) .my-picture::before,
+    :is(.introduction, .tv-container, .television) .my-picture::after {
+        top: 0%;
+    }
+
+    :is(.introduction, .tv-container, .television) .about {
+        top: 45%;
+    }
+
+}
+
+/* XXX-----XXX-----XXX Styles For Screen Width 150px || 9.375rem XXX-----XXX-----XXX */
+
+/* ---X-X-X-X-X--- MEDIA_QUERIES ---X-X-X-X-X--- */
