@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/the-place-of-css-transformations/static/css/main.9aad2331.css",
+    "main.js": "/the-place-of-css-transformations/static/js/main.9774d573.js",
+    "static/media/vs-code.png": "/the-place-of-css-transformations/static/media/vs-code.5280c12f3b2a986fffc7.png",
+    "static/media/vs-code-1.png": "/the-place-of-css-transformations/static/media/vs-code-1.1e974dd2776b0d2fbe7c.png",
+    "static/media/vs-code-2.png": "/the-place-of-css-transformations/static/media/vs-code-2.3bc9195d7fb0a359b7fa.png",
+    "static/media/vs-code-3.png": "/the-place-of-css-transformations/static/media/vs-code-3.cb01144d740aeee3d254.png",
+    "static/media/vs-code-4.png": "/the-place-of-css-transformations/static/media/vs-code-4.5982852ce54a0b9de8ff.png",
+    "static/media/car-head-light.png": "/the-place-of-css-transformations/static/media/car-head-light.f7bf48285266a7064d0a.png",
+    "static/media/car-gas-cap.png": "/the-place-of-css-transformations/static/media/car-gas-cap.504a1ba76a0aa7994209.png",
+    "static/media/Tayyab_Ali.png": "/the-place-of-css-transformations/static/media/Tayyab_Ali.f728ca078b27c574c2df.png",
+    "static/media/about-thumbnail.png": "/the-place-of-css-transformations/static/media/about-thumbnail.f74bb7fe47c46681cffe.png",
+    "static/media/car-exhaust-pipe.png": "/the-place-of-css-transformations/static/media/car-exhaust-pipe.5e2826f59629e1344d57.png",
+    "static/media/about-thumbnail2.png": "/the-place-of-css-transformations/static/media/about-thumbnail2.4c9e8ac6b117b616e771.png",
+    "static/media/car-door-handle.png": "/the-place-of-css-transformations/static/media/car-door-handle.b0798583370a3345f34f.png",
+    "static/media/about-thumbnail3.png": "/the-place-of-css-transformations/static/media/about-thumbnail3.c715cc417a59ab5b746f.png",
+    "static/media/about-thumbnail4.png": "/the-place-of-css-transformations/static/media/about-thumbnail4.1d4554f22e636b93c5fb.png",
+    "static/media/about-thumbnail5.png": "/the-place-of-css-transformations/static/media/about-thumbnail5.5f9afee0dca52976527d.png",
+    "static/media/about-thumbnail7.png": "/the-place-of-css-transformations/static/media/about-thumbnail7.9ecdf2ec8bae2813abc8.png",
+    "static/media/about-thumbnail6.png": "/the-place-of-css-transformations/static/media/about-thumbnail6.b62b56723a86254f571d.png",
+    "static/media/car-indicator-1.png": "/the-place-of-css-transformations/static/media/car-indicator-1.e557c668cbe320ffdc29.png",
+    "static/media/about-thumbnail8.png": "/the-place-of-css-transformations/static/media/about-thumbnail8.2016f6aab03c2996b388.png",
+    "static/media/welcome-text.png": "/the-place-of-css-transformations/static/media/welcome-text.6adc8e05ebe5843f1b62.png",
+    "static/media/welcome-text-2.png": "/the-place-of-css-transformations/static/media/welcome-text-2.3be3b166ea91edfa2514.png",
+    "static/media/welcome-text-1.png": "/the-place-of-css-transformations/static/media/welcome-text-1.64471a49e65b711f5819.png",
+    "index.html": "/the-place-of-css-transformations/index.html",
+    "main.9aad2331.css.map": "/the-place-of-css-transformations/static/css/main.9aad2331.css.map",
+    "main.9774d573.js.map": "/the-place-of-css-transformations/static/js/main.9774d573.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9aad2331.css",
+    "static/js/main.9774d573.js"
+  ]
+}
